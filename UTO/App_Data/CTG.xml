@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ctg>
+  <ctgchild  descripcion="Trabajador identificado" ></ctgchild>
+  <ctgchild  descripcion="Trabajador caracterizado" ></ctgchild>
+  <ctgchild descripcion="Trabajador certificado" ></ctgchild>
+  <ctgchild  descripcion="Instructor-docente" ></ctgchild>
+  <ctgchild  descripcion="Evaluador" ></ctgchild>
+  <ctgchild  descripcion="Otro" ></ctgchild>
+</ctg>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<importador>
+  <importadorchild value="-1" descripcion="Seleccione.."></importadorchild>
+  <importadorchild value="0" descripcion="Importador 1"></importadorchild>
+  <importadorchild value="1" descripcion="Importador 2"></importadorchild>
+  <importadorchild value="1" descripcion="Importador 3"></importadorchild>
+</importador>

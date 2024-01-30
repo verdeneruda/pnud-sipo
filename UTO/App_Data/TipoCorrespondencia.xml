@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipocorrespondencia>
+  <tipocorrespondenciachild  value="-1" descripcion="Seleccione..">
+  </tipocorrespondenciachild>
+  <tipocorrespondenciachild value="1" descripcion="Carta 1"></tipocorrespondenciachild>
+  <tipocorrespondenciachild value="2" descripcion="Carta 2"></tipocorrespondenciachild>
+  <tipocorrespondenciachild value="3" descripcion="Carta 3"></tipocorrespondenciachild>
+</tipocorrespondencia>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equiposcomprauno>
+  <equiposcompraunochild  Licitacion="Licitacion 2" KIT="KIT Comercial" 
+                          Descripcion="Máquina recuperadora de refrigerantes Promax - RG5410A. Recuperación de CFC, HCFC, HFC. Seguro de alta presión para 400/50 psi. Sistema de autopurga. Filtro secador. Control de llenado al 80%." 
+                          Costo="1.564.560" Cantidad ="2" Serie ="S1234" Placa ="PL1234" Valor="3.129.120" ValorLetras="Tres millones ciento veinte nuevo mil ciento veinte"></equiposcompraunochild>
+  <equiposcompraunochild  Licitacion="Licitacion 2" KIT="KIT Comercial" 
+                          Descripcion="Equipo portátil de soldadura Wigam- 80 p/b oxigeno y propano. Tanque de 5 litros para ambos gases. Reductores de presión para oxigeno y propano. Boquilla. Manómetros. Válvula de no retorno de llama. Sop" 
+                          Costo="829.980" Cantidad ="1" Serie ="S1234" Placa ="PL1234" Valor="829.980" ValorLetras="Ochocientos veinte mil novecientos ochenta" ></equiposcompraunochild>
+  <equiposcompraunochild  Licitacion="Licitacion 2" KIT="KIT Comercial" 
+                          Descripcion="Cilindro para recuperación de gas refrigerante Antrol capacidad de 3 libras. Puerto dual. Especificaciones DOT-400OFP 12 Kg. pautas de la ARI. Presión de servicio de 400 Psig. Recuperación CFC. HCHFC. HFC" 
+                          Costo="166.950" Cantidad ="3" Serie ="S1234" Placa ="PL1234" Valor="500.850" ValorLetras="Quinientos mil ochocientos cincuenta"></equiposcompraunochild>
+  <equiposcompraunochild  Licitacion="Licitacion 3" KIT="KIT Industrial"
+                        Descripcion="Cilindro para recuperación de gas refrigerante Antrol capacidad de 3 libras. Puerto dual. Especificaciones DOT-400OFP 12 Kg. pautas de la ARI. Presión de servicio de 400 Psig. Recuperación CFC. HCHFC. HFC"
+                        Costo="166.950" Cantidad ="2" Serie ="S1234" Placa ="PL1234" Valor="333.900" ValorLetras="Trecientos treinta y tres mil novecientos"></equiposcompraunochild>
+</equiposcomprauno>

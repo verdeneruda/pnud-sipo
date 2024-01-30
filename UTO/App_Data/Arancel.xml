@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<arancel>
+  <arancelchild value="-1" descripcion="Seleccione.."></arancelchild>
+  <arancelchild value="0" descripcion="29.03.49.14.00"></arancelchild>
+  <arancelchild value="1" descripcion="29.03.49.15.00"></arancelchild>
+  <arancelchild value="2" descripcion="29.03.39.23.00"></arancelchild>
+  <arancelchild value="2" descripcion="29.03.39.25.00"></arancelchild>
+</arancel>

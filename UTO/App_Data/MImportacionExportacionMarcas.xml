@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<marcas>
+  <marcaschild value="-1" descripcion="Seleccione.."></marcaschild>
+  <marcaschild value="0" descripcion="A-1"></marcaschild>
+  <marcaschild value="1" descripcion="ABCO"></marcaschild>
+  <marcaschild value="2" descripcion="JBT"></marcaschild>
+  <marcaschild value="3" descripcion="Hyundai"></marcaschild>
+  <marcaschild value="3" descripcion="L.G. Electronics"></marcaschild>
+  <marcaschild value="4" descripcion="No Menciona"></marcaschild>
+</marcas>

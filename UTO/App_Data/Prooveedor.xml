@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prooveedor>
+  <prooveedorchild value="-1" descripcion="Seleccione..">
+  </prooveedorchild>
+  <prooveedorchild value="0" descripcion="Almacenes refrigeración">
+  </prooveedorchild>
+  <prooveedorchild value="1" descripcion="Dupont">
+  </prooveedorchild>
+  <prooveedorchild value="2" descripcion="Mundial de lavadoras">
+  </prooveedorchild>  
+</prooveedor>

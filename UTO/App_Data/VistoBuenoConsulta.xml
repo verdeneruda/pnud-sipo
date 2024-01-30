@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild Fecha_inicio="05/10/2010" Importador="Incopar LTDA" NúmeroLicencia="12"  NumeroVistoBueno=" "                                                              
+                 Concepto="Requerimiento" FechaConcepto ="05/10/2010">  </consultachild>
+  <consultachild Fecha_inicio="05/10/2010" Importador="Confortotal S.A.S" NúmeroLicencia="14"  NumeroVistoBueno="25"
+                 Concepto="Visto Bueno" FechaConcepto ="05/10/2010">  </consultachild>
+</consulta>

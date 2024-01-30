@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<conceptos>
+  <conceptoschild value="-1" descripcion="Seleccione.."></conceptoschild>
+  <conceptoschild value="0" descripcion="Visto Bueno"></conceptoschild>
+  <conceptoschild value="1" descripcion="Requerimiento"></conceptoschild>
+  <conceptoschild value="2" descripcion="Negado"></conceptoschild>
+  <conceptoschild value="3" descripcion="No requiere"></conceptoschild>
+</conceptos>

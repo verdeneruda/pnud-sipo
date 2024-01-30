@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild AnexoGrupo="A-GrupoI" Sustancias="CFC-11(CFCL3)" CantidadImportadaNuevaTodosUsos="0" CantidadImportadaRecuperadaTodosUsos ="0" CantidadesMateriasPrimas="0"
+                 CantidadesUsosEsenciales ="0" DecisionTipoUso="">  </consultachild>
+  <consultachild AnexoGrupo="A-GrupoI" Sustancias="CFC-12(CFC2CL2)" CantidadImportadaNuevaTodosUsos="109.66" CantidadImportadaRecuperadaTodosUsos ="0" CantidadesMateriasPrimas="0"
+                 CantidadesUsosEsenciales ="0" DecisionTipoUso="">  </consultachild>
+  <consultachild AnexoGrupo="A-GrupoI" Sustancias="CFC-15(C2F5CL)" CantidadImportadaNuevaTodosUsos="1.6" CantidadImportadaRecuperadaTodosUsos ="0" CantidadesMateriasPrimas="0"
+                 CantidadesUsosEsenciales ="0" DecisionTipoUso="">  </consultachild>
+  <consultachild AnexoGrupo="B-GrupoII" Sustancias="Tetracloruro de carbono" CantidadImportadaNuevaTodosUsos="0.55" CantidadImportadaRecuperadaTodosUsos ="0" CantidadesMateriasPrimas="0"
+                 CantidadesUsosEsenciales ="0" DecisionTipoUso="">  </consultachild>
+  <consultachild AnexoGrupo="C-GrupoI" Sustancias="HCFC-22(CHF2CL)" CantidadImportadaNuevaTodosUsos="1358.99" CantidadImportadaRecuperadaTodosUsos ="0" CantidadesMateriasPrimas="0"
+                 CantidadesUsosEsenciales ="0" DecisionTipoUso="">  </consultachild>
+</consulta>

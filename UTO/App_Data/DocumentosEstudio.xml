@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<documentoEstudio>
+  <documentochild  documento="FORMATO DE CARACTERIZACIÓN DE EMPRESA Y/O PERSONA NATURAL" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="DOCUMENTOS BENEFICIARIO EN PARTICIPACIÓN EN EL PROCESO DE CERTIFICACIÓN" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="DOCUMENTO OFICIAL DE ENTREGA DE EQUIPOS A MAVDT" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="COMPROBANTE ENTRADA ALMACÉN" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="ESTUDIO DE CONVENIENCIA Y OPORTUNIDAD" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="COPIA DE LA CEDULA" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="RUT" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="PASADO JUDICIAL. (P.N)" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="CAMARA DE COMERCIO" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="CERTIFICADO CONTRALORÍA" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="CERTIFICADO PROCURADURÍA. (P.N)" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="MEMORANDO DE ENTREGA A CONTRATOS" fecha ="2010-01-01"> </documentochild>
+</documentoEstudio>

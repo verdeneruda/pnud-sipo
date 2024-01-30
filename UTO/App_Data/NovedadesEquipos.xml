@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<novedadesequipos>
+  <novedadesequiposchild  Numero="UTON-0001" Fecha="2010-01-01" Regional="CENTRO" Beneficiario="AIRCOND LTDA." Motivo ="Cambio dirección" TipoNovedad="OtroSi"></novedadesequiposchild>
+  <novedadesequiposchild  Numero="UTON-0002" Fecha="2010-02-01" Regional="SUROCCIDENTE" Beneficiario="A.F. REFRIGERACION S.A." Motivo ="Renuncia equipos" TipoNovedad="OtroSi"></novedadesequiposchild>
+  <novedadesequiposchild  Numero="UTON-0003" Fecha="2010-03-01" Regional="ANTIOQUIA" Beneficiario="AIMA LTDA." Motivo ="Equipo adicional" TipoNovedad="OtroSi"></novedadesequiposchild>
+</novedadesequipos>

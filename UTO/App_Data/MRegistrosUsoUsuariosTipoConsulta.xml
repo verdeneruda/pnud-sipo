@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild value="-1" descripcion="Seleccione.."></consultachild>
+  <consultachild value="0" descripcion="Importadores"></consultachild>
+  <consultachild value="1" descripcion="Usuarios Finales"></consultachild>
+</consulta>

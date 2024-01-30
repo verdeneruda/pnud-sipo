@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<reporteuso>
+  <reporteusochild  Centro="Bogotá" Mes="Enero" Departamento ="Bogota" Ciudad ="Bogota" Dirección="M 14 C 10 III Etapa. Bosques de la Acuarela" Teléfono="3369201"></reporteusochild>
+  <reporteusochild  Centro="Calí" Mes="Enero" Departamento ="Bogota" Ciudad ="Bogota" Dirección="M 14 C 10 III Etapa. Bosques de la Acuarela" Teléfono="3369201"></reporteusochild>
+  <reporteusochild  Centro="Medellín" Mes="Enero" Departamento ="Bogota" Ciudad ="Bogota" Dirección="M 14 C 10 III Etapa. Bosques de la Acuarela" Teléfono="3369201"></reporteusochild>
+</reporteuso>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<contacto>
+  <contactochild value="-1" descripcion="Seleccione.."></contactochild>
+  <contactochild value="0" descripcion="Gina Paola Isaza Perez"></contactochild>
+  <contactochild value="1" descripcion="Jhonny García"></contactochild>
+  <contactochild value="2" descripcion="Maria del Pilar Lara"></contactochild>
+  <contactochild  value="3" descripcion="Shirley Caro"></contactochild>
+</contacto>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipo>
+  <tipochild value="-1" descripcion="Seleccione..">
+  </tipochild>
+  <tipochild value="0" descripcion="Inventario Nacional-UTO">
+  </tipochild>
+  <tipochild value="1" descripcion="Inventario Nacional-Pùblico">
+  </tipochild>
+  
+</tipo>

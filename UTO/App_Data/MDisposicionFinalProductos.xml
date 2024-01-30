@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<disposicion>
+  <disposicionchild Fecha="18/10/2005"  Empresa="Laboratorios Chalver De Colombia S.A" Dirección_Almacenamiento="Av. 69 No. 37B-31 Sur" Teléfono="7245090" Departamento="Cundinamarca"	Ciudad="Bogotá" Persona_Contacto="Yamile Camacho"	Cargo_Contacto="Ing. Ambiental Chalver">
+  </disposicionchild>
+  <disposicionchild Fecha="26/09/2007"  Empresa="ETB" Dirección_Almacenamiento="Calle 64 No. 127-51" Teléfono="(1)2422308" Departamento="cundinamarca"	Ciudad="Bogotá" Persona_Contacto="Edwin Manuel García"	Cargo_Contacto="Ing. Ambiental ETB">
+  </disposicionchild>
+</disposicion>
+
+

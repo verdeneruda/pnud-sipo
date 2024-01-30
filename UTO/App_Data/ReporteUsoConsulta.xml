@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild Ciudad="NEIVA" Fecha ="28/03/2008" Empresa ="JAIRO ESTEBAN DIAZ" Contacto="JAIRO ESTEBAN DIAZ" Telefono ="3167330045" Direccion ="Calle 24 No 4 - 83"
+                 R-12 = "80" UsoR12 ="A"  R-134a = "140" UsoR134 ="B" R-22 = "500" UsoR22 ="b"
+                 Otro ="0" UsoOtro=" ">
+  </consultachild>
+  <consultachild Ciudad="NEIVA" Fecha ="28/03/2008" Empresa ="JAIRO ESTEBAN DIAZ" Contacto="JAIRO ESTEBAN DIAZ" Telefono ="3167330045" Direccion ="Calle 24 No 4 - 83"
+                 R-12 = "80" UsoR12 ="A"  R-134a = "140" UsoR134 ="B" R-22 = "500" UsoR22 ="b"
+                 Otro ="0" UsoOtro=" ">
+  </consultachild>
+  <consultachild Ciudad="NEIVA" Fecha ="28/03/2008" Empresa ="JAIRO ESTEBAN DIAZ" Contacto="JAIRO ESTEBAN DIAZ" Telefono ="3167330045" Direccion ="Calle 24 No 4 - 83"
+               R-12 = "80" UsoR12 ="A"  R-134a = "140" UsoR134 ="B" R-22 = "500" UsoR22 ="b"
+               Otro ="0" UsoOtro=" ">
+  </consultachild>
+</consulta>

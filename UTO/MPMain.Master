@@ -1,0 +1,219 @@
+﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MPMain.master.cs" Inherits="UTO.MPMain" %>
+
+<%@ Register Assembly="DevExpress.Web.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+     
+    <%@ Register Assembly="DevExpress.Web.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %> 
+    
+
+    
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+    <html xmlns="http://www.w3.org/1999/xhtml" >
+    <head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="App_Themes/Forms.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Menu.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.minambiente.gov.co/wp-content/themes/wp-mads/inc/assets/css/bootstrap.min.css" type="text/css" media="all" />
+    <!-- Estilos transversales -->
+	
+	<link href="https://cdn.www.gov.co/layout/v4/all.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet"crossorigin="anonymous"/>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"crossorigin="anonymous"></script>
+	<script src="https://dev-cdn.minambiente.gov.co/transversales/v1/web-components-transversales.js" async defer></script>	
+        <style type="text/css">
+            .style1
+            {
+                font-family: "Arial Narrow";
+            }
+            .style2
+            {
+                color: #FFFFFF;
+            }
+            .style3
+            {
+                color: #FFFFFF;
+                font-size: x-large;
+            }
+            .style4
+            {
+                color: #FFFFFF;
+                font-size: large;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+          
+        <div class="pagina">
+               <div class="top-bar-gov">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-2 col-4 text-left">
+                              <a href="https://www.gov.co/" target="_blank" title="Ir al portal GOV.CO" aria-label="Ir al portal GOV.CO"><img alt="logo GOV.CO" title="Ir al portal GOV.CO" src="https://www.minambiente.gov.co/wp-content/themes/wp-mads/inc/assets/images/logo.svg"></a>
+                           </div>
+                           <div class="col-md-8 col-6"></div>
+                           <div class="col-md-2 col-2 text-right"></div>
+                       </div>
+                       <div class="logoderecho" id="idLogoderecho">
+                           <asp:Image ID="Image2" runat="server" ImageUrl="Images/logo.jpg"  />
+                       </div>
+                   </div>
+              </div>
+            <header id="masthead" class="site-header navbar-static-top navbar-light" role="banner">
+                <div class="container">
+                    <div class="row logo-mads">
+                        <div class="col-md-6">
+                            <div class="navbar-brand">
+                                   <h1>
+                                        <a href="https://www.minambiente.gov.co/" title="Ministerio de Ambiente y Desarrollo Sostenible" aria-label="Ir al Portal MinAmbiente" alt="Logo MinAmbiente">
+                                        <img src="https://www.minambiente.gov.co/wp-content/uploads/2023/05/LOGO_AMBIENTE_2023_01.png" alt="Logo MinAmbiente" title="Ministerio de Ambiente y Desarrollo Sostenible">
+                                        </a>
+                                    </h1>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="interno">
+                <%--<table  cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td  class="cabecera">                        
+                            <table width="100%">
+                                <tr>
+                                    <td >
+                                        <a href="http://www.minambiente.gov.co/web/index.html">
+                                            <asp:Image ID="Image1" runat="server" ImageUrl="Images/escudo-ministerio.png"  />                                    
+                                        </a>
+                                    </td>
+                                    <td><asp:Image ID="Image2" runat="server" ImageUrl="Images/logo.jpg"  />                                    
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </td>
+                    </tr>
+                </table>--%>
+               
+            </div>
+        <div class="interno2">
+            <table   cellpadding="0" cellspacing="0" width="100%" >
+                <tr>
+<%--                    <td  ></td>                    
+                    <td class="bordesupizq"></td>--%>
+                    <td>
+                        <dx:ASPxMenu ID="ASPxMenu1" runat="server" AutoSeparators="RootOnly" 
+                            CssFilePath="~/App_Themes/DevEx/{0}/styles.css" CssPostfix="DevEx" 
+                            DataSourceID="SiteMapSesion" ShowPopOutImages="True" 
+                            SpriteCssFilePath="~/App_Themes/DevEx/{0}/sprite.css" ItemImagePosition="Right" HorizontalAlign="Right">
+                            <ItemStyle DropDownButtonSpacing="10px" PopOutImageSpacing="10px" HorizontalAlign="Right" />
+                            <LoadingPanelStyle ImageSpacing="5px">
+                            </LoadingPanelStyle>
+                            <LoadingPanelImage Url="~/App_Themes/DevEx/Web/Loading.gif">
+                            </LoadingPanelImage>
+                            <ItemSubMenuOffset FirstItemX="2" LastItemX="2" X="2" />
+                            <SubMenuStyle GutterImageSpacing="9px" GutterWidth="3px" />
+                        </dx:ASPxMenu>
+                    </td>
+<%--                    <td class="bordesupder"></td>
+                    <td  ></td> --%>                                       
+                </tr>
+                <tr>
+<%--                    <td></td>                    
+                    <td class="bordeizq"></td>--%>
+                    <td>
+                        <table>
+                            <tr>
+                                <td class="menuleft" >
+                                    <div class="divmenu">
+                                        <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" AllowSelectItem="True" 
+                                            AutoCollapse="True" CssFilePath="~/App_Themes/Office2003Olive/{0}/styles.css" 
+                                            CssPostfix="Office2003Olive" DataSourceID="SiteMapMain" 
+                                            EnableAnimation="True" 
+                                            SpriteCssFilePath="~/App_Themes/Office2003Olive/{0}/sprite.css" 
+                                            ondatabound="ASPxNavBar1_DataBound">
+                                            <GroupHeaderStyle Font-Bold="True" Font-Italic="False" Font-Names="Arial" 
+                                                Font-Size="X-Small">
+                                            </GroupHeaderStyle>
+                                            <LoadingPanelStyle ImageSpacing="6px" Wrap="True">
+                                            </LoadingPanelStyle>
+                                             <ItemStyle Font-Size="X-Small" />
+                                            <LoadingPanelImage Url="~/App_Themes/Office2003Olive/Web/Loading.gif">
+                                            </LoadingPanelImage>
+                                        </dx:ASPxNavBar>                                              
+                                    </div>
+                                </td>
+                                <td class="menuleft">
+                                                                        <dx:ASPxSiteMapDataSource ID="SiteMapMain" runat="server" 
+                                            SiteMapFileName="~/App_Data/MapaNav.sitemap" />
+                                        <dx:ASPxSiteMapDataSource ID="SiteMapSesion" runat="server" 
+                                            SiteMapFileName="~/App_Data/MapaNavUser.sitemap" />  
+                                <div class="divmenu">
+                                    <dx:ASPxTreeView ID="ASPxTreeView1" runat="server" AllowSelectNode="true" Width="150px" 
+                                 TextField="Title" DataSourceID="SiteMapMain"                                                                                            
+                                 Styles-CssFilePath="~/App_Themes/Office2003Olive/{0}/styles.css" 
+                                        Styles-CssPostfix="Office2003Olive" ondatabound="ASPxTreeView1_DataBound"  >
+                                        <NodeTextTemplate>
+                                            <div style="white-space: normal; width: 200px">
+                                                <%# Container.Node.Text %>
+                                            </div>
+                                        </NodeTextTemplate>                                 
+                                        <Styles CssFilePath="~/App_Themes/Office2003Olive/{0}/styles.css" 
+                                            CssPostfix="Office2003Olive" >
+                                            <Node VerticalAlign="Top" >
+                                            </Node>
+                                        </Styles>
+                                        <Images SpriteCssFilePath="~/App_Themes/Office2003Olive/{0}/sprite.css">
+                                            <NodeLoadingPanel Url="~/App_Themes/Office2003Olive/Web/tvNodeLoading.gif">
+                                            </NodeLoadingPanel>
+                                            <LoadingPanel Url="~/App_Themes/Office2003Olive/Web/Loading.gif">
+                                            </LoadingPanel>
+                                        </Images>
+                                </dx:ASPxTreeView>
+                                </div>
+                                </td>
+                                <td class="menuright">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>                    
+                    </td>
+<%--                    <td class="bordeder"></td>
+                    <td></td>   --%>                 
+                </tr>
+                <tr>
+<%--                    <td class="bordeinfizqfooter"></td>
+                    <td class="bordeinfizqfooter"></td>--%>
+                    <td>
+                        <%--<div id="plantila-contacto">
+		
+    	                    <p><strong>Ministerio de Ambiente y Desarrollo Sostenible de la República de Colombia</strong><br>
+                    Líneas gratuitas 018000915060 - 018000919301<br>
+    	                    Calle 37 No. 8-40 - Conmutador: (57-1) 3323400
+                    Horario de atención: Lunes a Viernes de 08:00 a.m. - 4:00 p.m</p>
+	                    </div>--%>
+
+                    </td>
+<%--                    <td class="bordeinfiderfooter" ></td>
+                    <td class="bordeinfizqfooter"></td>--%>
+                </tr>
+            </table>
+            
+            </div>
+        <wecmp-transversales-footer></wecmp-transversales-footer>
+    </div>
+        </form>
+    </body>
+    </html>

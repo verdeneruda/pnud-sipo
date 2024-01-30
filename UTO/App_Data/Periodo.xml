@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<periodo>
+  <periodochild  value="-1" descripcion="Seleccione..">
+  </periodochild>
+  <periodochild value="1" descripcion="Primer trimestre"></periodochild>
+  <periodochild value="2" descripcion="Segundo trimestre"></periodochild>
+  <periodochild value="3" descripcion="Tercer trimestre"></periodochild>
+  <periodochild value="4" descripcion="Cuarto trimestre"></periodochild>
+</periodo>

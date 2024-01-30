@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<detalle>
+  <detallechild Sustancia="CFC-11"	Presentación="4 Canecas de 55 gal" Cantidad_Kg="777" Estado="Recuperada" Observación="Sustancia proveniente del cambio de los chillers" Actualización="">
+  </detallechild>
+  <detallechild Sustancia="Halon-1301"	Presentación="Cilindros de varias capacidades" Cantidad_Kg="7222,9" Estado="Virgen en desuso" Observación="" Actualización="">
+  </detallechild>
+</detalle>

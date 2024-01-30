@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<registro>
+  <registrochild Mes="Enero" Importador="Incopar LTDA." Registro ="20401159" VistoBueno ="17883" 
+                 FechaVistoBueno ="2009-01-05" FechaVigencia ="2009-04-05" 
+                 Arancel="29.03.49.11.00" Sustancia="HCFC-22" Cantidad ="6000" Marca ="Refrigerant R-22" Presentacion="Tarros x 1 Kg" 
+                 Precio ="3,3" Origen="Mexico" Compra="Mexico"  Puerto="Altamira" Aduana="Buenaventura" 
+                 Exportador ="Quimobasicos S.A. De C.V.">
+  </registrochild>
+  <registrochild Mes="Enero" Importador="Incopar LTDA." Registro ="20401159" VistoBueno ="17883"
+               FechaVistoBueno ="2009-01-05" FechaVigencia ="2009-04-05"
+               Arancel="29.03.49.11.00" Sustancia="HFC-134a" Cantidad ="2720" Marca ="Refrigerant 134a" Presentacion="Cilindros x 13,6 Kg"
+               Precio ="4,80" Origen="Mexico" Compra="Mexico"  Puerto="Altamira" Aduana="Buenaventura"
+               Exportador ="Quimobasicos S.A. De C.V.">
+  </registrochild>
+  <registrochild Mes="Enero" Importador="Incopar LTDA." Registro ="20401159" VistoBueno ="17884"
+               FechaVistoBueno ="2009-01-05" FechaVigencia ="2009-04-05"
+               Arancel="29.03.49.11.00" Sustancia="R-401A" Cantidad ="600" Marca ="Refrigerant R-401A" Presentacion="Tarros x 1 Kg"
+               Precio ="7,0" Origen="Mexico" Compra="Mexico"  Puerto="Altamira" Aduana="Buenaventura"
+               Exportador ="Quimobasicos S.A. De C.V.">
+  </registrochild>
+  <registrochild Mes="Enero" Importador="Incopar LTDA." Registro ="20401159" VistoBueno ="17884"
+               FechaVistoBueno ="2009-01-05" FechaVigencia ="2009-04-05"
+               Arancel="29.03.49.11.00" Sustancia="R-410A" Cantidad ="452" Marca ="Refrigerant R-410A" Presentacion="Cilindros x 11.3 Kg."
+               Precio ="8,0" Origen="Mexico" Compra="Mexico"  Puerto="Altamira" Aduana="Buenaventura"
+               Exportador ="Quimobasicos S.A. De C.V.">
+  </registrochild>
+</registro>

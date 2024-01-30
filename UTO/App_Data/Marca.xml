@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<marca>
+  <marcachild value="-1" descripcion="Seleccione..">   </marcachild>
+  <marcachild value="0" descripcion="No disponible">   </marcachild>
+  <marcachild value="1" descripcion="BNF"></marcachild>
+  <marcachild value="2" descripcion="Dupont"></marcachild>
+  <marcachild value="3" descripcion="Genetron"></marcachild>
+  <marcachild value="4" descripcion="Global"></marcachild>
+  <marcachild value="5" descripcion="Refrigerant"></marcachild>
+</marca>

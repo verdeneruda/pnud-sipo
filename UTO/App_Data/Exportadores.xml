@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<exportadores>
+  <exportadoreschild  value="-1" descripcion="Seleccione..">
+  </exportadoreschild>
+  <exportadoreschild value="1" descripcion="Quimobasicos S.A. De C.V."></exportadoreschild>
+  <exportadoreschild value="2" descripcion="BNF Industries Ltda."></exportadoreschild>
+  <exportadoreschild value="3" descripcion="New China Chemicals LTD."></exportadoreschild>
+</exportadores>

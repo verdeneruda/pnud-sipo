@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tiporefrigerante>
+  <tiporefrigerantechild value="-1" descripcion="Seleccione.."></tiporefrigerantechild>
+  <tiporefrigerantechild value="0" descripcion="CFC R – 12"></tiporefrigerantechild>
+  <tiporefrigerantechild value="1" descripcion="CFC R- 11"></tiporefrigerantechild>
+  <tiporefrigerantechild value="2" descripcion="CFC R – 502"></tiporefrigerantechild>
+  <tiporefrigerantechild value="3" descripcion="HCFC R- 22"></tiporefrigerantechild>
+  <tiporefrigerantechild value="4" descripcion="HCFC R - 141b"></tiporefrigerantechild>
+  <tiporefrigerantechild value="5" descripcion="HCFC R – 123"></tiporefrigerantechild>
+  <tiporefrigerantechild value="6" descripcion="HFC R – 134a"></tiporefrigerantechild>
+  <tiporefrigerantechild value="7" descripcion="HFC R – 404A"></tiporefrigerantechild>
+  <tiporefrigerantechild value="8" descripcion="HFC R- 507A"></tiporefrigerantechild>
+  <tiporefrigerantechild value="9" descripcion="HFC R- 407C"></tiporefrigerantechild>
+  <tiporefrigerantechild value="10" descripcion="HFC R- 410A"></tiporefrigerantechild>
+  <tiporefrigerantechild value="11" descripcion="Otros Refrigerantes"></tiporefrigerantechild>
+</tiporefrigerante>

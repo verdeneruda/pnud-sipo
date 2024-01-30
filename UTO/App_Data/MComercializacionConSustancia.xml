@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sustancia>
+  <sustanciachild value="-1" descripcion="Seleccione.."></sustanciachild>
+  <sustanciachild value="0" descripcion="R-134a"></sustanciachild>
+</sustancia>

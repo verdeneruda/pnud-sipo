@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categoria>
+<categoriachild value="-1" descripcion="Seleccione..">  </categoriachild>
+  <categoriachild value="0" descripcion="Aplicaciones Domésticas,Comerciales bajo porte">  </categoriachild>
+  <categoriachild value="1" descripcion="Aplicaciones Comerciales mediano,alto porte">  </categoriachild>
+  <categoriachild value="2" descripcion="Aplicaciones Industriales"></categoriachild>
+</categoria>

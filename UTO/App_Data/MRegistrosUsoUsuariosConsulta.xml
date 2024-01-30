@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild Sustancia_Usada="CFC R - 12" Cantidad_Usada_Anual="50" Categoria_Equipo="Aplicaciones Domésticas/Comerciales de bajo porte" Tipo_Equipo="Nevera vertical"  Num_Unidades="1" Carga_Promedio_Instalada_Kg="1" Carga_Prom_Mantenimiento_Kg_Año="1" Consumo_Energético_Kwh_año="" Potencia_Compresor_W="" Volumen_Útil_L="2"  Cap_Enfriamiento_Btu_h="5" Obsercaciones=""></consultachild>
+  <consultachild Sustancia_Usada="CFC R – 12"  Cantidad_Usada_Anual="50" Categoria_Equipo="Aplicaciones Comerciales de mediano y alto porte" Tipo_Equipo="Vitrina refrigerada"  Num_Unidades="1" Carga_Promedio_Instalada_Kg="1" Carga_Prom_Mantenimiento_Kg_Año="1" Consumo_Energético_Kwh_año="" Potencia_Compresor_W="" Volumen_Útil_L="2"  Cap_Enfriamiento_Btu_h="5" Obsercaciones="" ></consultachild>
+</consulta>

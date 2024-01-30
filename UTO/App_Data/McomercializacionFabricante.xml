@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<fabricante>
+  <fabricantechild value="-1" descripcion="Seleccione.."></fabricantechild >
+  <fabricantechild value="0" descripcion="No disponible"></fabricantechild >
+  <fabricantechild value="1" descripcion="Fabricante 1"></fabricantechild >
+  <fabricantechild value="2" descripcion="Fabricante 2"></fabricantechild >
+  <fabricantechild value="3" descripcion="Fabricante 3"></fabricantechild >
+</fabricante>

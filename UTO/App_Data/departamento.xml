@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<departamento>
+  <departamentochild value="-1" descripcion="Seleccione.." >
+  </departamentochild>
+  <departamentochild value="0" descripcion="Atlántico" >
+  </departamentochild>
+  <departamentochild value="1" descripcion="Boyacá" >
+  </departamentochild>
+  <departamentochild value="2" descripcion="cundinamarca" >
+  </departamentochild>
+  <departamentochild value="3" descripcion="Santander" >
+  </departamentochild>
+</departamento>

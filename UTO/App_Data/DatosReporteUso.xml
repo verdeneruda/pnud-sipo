@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<datosreporteuso>
+  <datosreporteusochild  Uso="Gas Recuperado" Fecha="Enero"  Gas ="R-409A" lb="10" TipoUso="A(Se recupera/recicla)" Cantidad ="1068975"></datosreporteusochild>
+  <datosreporteusochild  Uso="Gas Recuperado" Fecha="Febrero"  Gas ="R-409A" lb="10" TipoUso="A(Se utiliza)" Cantidad ="1068975"></datosreporteusochild>
+  <datosreporteusochild  Uso="Gas Recuperado" Fecha="Marzo"  Gas ="R-409A" lb="10" TipoUso="C(No se puede reutilizar)" Cantidad ="1068975"></datosreporteusochild>
+  <datosreporteusochild  Uso="Gas Reciclado" Fecha="Enero"  Gas ="R-409A" lb="10" TipoUso="C(No se puede reutilizar)" Cantidad ="1068975"></datosreporteusochild>
+  <datosreporteusochild  Uso="Gas Reciclado" Fecha="Febrero"  Gas ="R-409A" lb="10" TipoUso="E(Otros usos)" Cantidad ="1068975"></datosreporteusochild>
+  <datosreporteusochild  Uso="Gas Reciclado" Fecha="Marzo"  Gas ="R-409A" lb="10" TipoUso="E(Otros usos)" Cantidad ="1068975"></datosreporteusochild>
+</datosreporteuso>

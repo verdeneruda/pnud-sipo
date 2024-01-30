@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sectores>
+  <sectoreschild value="-1" descripcion="Seleccione.."></sectoreschild>
+  <sectoreschild value="0" descripcion="Asistencia"></sectoreschild>
+  <sectoreschild value="1" descripcion="Espuma"></sectoreschild>
+  <sectoreschild value="2" descripcion="Fortalecimiento"></sectoreschild>
+  <sectoreschild value="3" descripcion="IDM"></sectoreschild>
+  <sectoreschild value="4" descripcion="Pesticidas"></sectoreschild>
+  <sectoreschild value="5" descripcion="Refrigeración"></sectoreschild>
+  <sectoreschild value="6" descripcion="Solventes"></sectoreschild>
+  <sectoreschild value="7" descripcion="Varios"></sectoreschild>
+</sectores>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UTO", ".", "{02FF5E0D-D6BB-47EF-A168-FFD9758635B3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_8275"
+		Debug.AspNetCompiler.PhysicalPath = "D:\SIPO\Fuentes\UTO\UTO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8275\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_8275"
+		Release.AspNetCompiler.PhysicalPath = "D:\SIPO\Fuentes\UTO\UTO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8275\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8275"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02FF5E0D-D6BB-47EF-A168-FFD9758635B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FF5E0D-D6BB-47EF-A168-FFD9758635B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {876E4DC1-5029-4F31-800C-3D8FA3A40C17}
+	EndGlobalSection
+EndGlobal

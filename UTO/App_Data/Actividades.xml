@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<actividadparent>
+  <actividadchild value="-1" descripcion="Seleccione.."></actividadchild>
+  <actividadchild value="0" descripcion="Sensibilización técnicos e ingenieros"></actividadchild>
+  <actividadchild value="1" descripcion="Reunion con posibles beneficiarios de equipos de RyR"></actividadchild>
+</actividadparent>

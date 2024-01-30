@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<permisos>
+	<siteMapNode url="Comunes/Pendientes.aspx" title="Pendientes" permisos="901"/>
+	<siteMapNode url="Certificacion/ActividadesBuscar.aspx" title="Actividades de divulgación" permisos="101,102,103,104"/>
+	<siteMapNode url="Certificacion/TecnicosBuscar.aspx" title="Técnicos" permisos="201,202,203,204"/>
+	<siteMapNode url="Certificacion/EmpresasBuscar.aspx" title="Empresas" permisos="205,206,207,208"/>
+	<siteMapNode url="Certificacion/CertificacionConsultas.aspx" title="Consultas" permisos="209"/>
+	<siteMapNode url="Certificacion/CuboCertificacion.aspx" title="Tabla dinámica" permisos="210"/>
+	<siteMapNode url="Comercializacion/EncuestaBuscar.aspx" title="Datos de comercialización" permisos="301,302,303,304"/>
+	<siteMapNode url="Comercializacion/comercializacionConsultas.aspx" title="Consultas" permisos="305,306"/>
+	<siteMapNode url="DisposicionFinal/ProductosBuscar.aspx" title="Sustancias disposición final" permisos="401,402,403,404"/>
+	<siteMapNode url="DisposicionFinal/ProductosConsultas.aspx" title="Consultas" permisos="405,406"/>
+	<siteMapNode url="RegistrosUso/ImportadoresBuscar.aspx" title="Registros reportados por importadores" permisos="501,502,503,504"/>
+	<siteMapNode url="RegistrosUso/CargueImportadores.aspx" title="Cargue de información de importadores" permisos="509"/>
+	<siteMapNode url="RegistrosUso/UsuariosBuscar.aspx" title="Usuarios finales" permisos="505,506,507,508"/>
+	<siteMapNode url="RegistrosUso/ImportadoresConsultas.aspx" title="Consultas" permisos="510,511"/>
+	<siteMapNode url="RegistrosUso/CuboRegistroUso.aspx" title="Tabla dinámica" permisos="512"/>
+	<siteMapNode url="Proyectos/AprobadosEliminacionBuscar.aspx" title="Proyectos aprobados de eliminación" permisos="601,602,603,604"/>
+	<siteMapNode url="Proyectos/AprobadosEliminacionConsultas.aspx" title="Consultas" permisos="605"/>
+	<siteMapNode url="ImportacionExportacion/CertificacionesBuscar.aspx" title="Certificaciones" permisos="701,702,703,704"/>
+	<siteMapNode url="ImportacionExportacion/LicAmbientalesBuscar.aspx" title="Licencias medio ambientales" permisos="705,706,707,708"/>
+	<siteMapNode url="ImportacionExportacion/RegistroImportacionBuscar.aspx" title="Registro importación" permisos="709,710,711,712"/>
+	<siteMapNode url="ImportacionExportacion/RegistroExportacionBuscar.aspx" title="Registro exportación" permisos="713,714,715,716"/>
+	<siteMapNode url="ImportacionExportacion/CargueInformacionExportacion.aspx" title="Cargue información datos consumo exportación" permisos="717"/>
+	<siteMapNode url="ImportacionExportacion/CargueInformacionImportacion.aspx" title="Cargue información datos consumo importación" permisos="718"/>
+	<siteMapNode url="ImportacionExportacion/Consulta.aspx" title="Consultas" permisos="719,720,721,722,723"/>
+	<siteMapNode url="ImportacionExportacion/Cubo.aspx" title="Tabla dinámica" permisos="724"/>
+	
+  <!--<siteMapNode url="Recuperacion/SolicitudEquiposBuscar.aspx" title="Solicitar equipos" permisos="801,802,803,804"/>
+  <siteMapNode url="Recuperacion/SolicitudEquiposBuscar.aspx?tipo=0" title="Solicitar equipos" permisos="801,802,803,804"/>
+	<siteMapNode url="Recuperacion/AprobarSolicitudEquiposBuscar.aspx" title="Aprobar solicitud equipos" permisos="805"/>
+  <siteMapNode url="Recuperacion/AprobarSolicitudEquiposBuscar.aspx?tipo=0" title="Aprobar solicitud equipos" permisos="805"/>
+	<siteMapNode url="Recuperacion/NovedadEquiposBuscar.aspx" title="Novedades equipos" permisos="806,807,808,809"/>
+	<siteMapNode url="Recuperacion/AprobarNovedadEquiposBuscar.aspx" title="Aprobar novedades equipos" permisos="810"/>
+	<siteMapNode url="Recuperacion/ReporteUsoBuscar.aspx" title="Reportes de uso" permisos="811,812,813,814"/>
+	<siteMapNode url="Recuperacion/ReporteRegeneracionBuscar.aspx" title="Reportes centros de regeneración" permisos="815,816,817,818"/>
+	<siteMapNode url="Recuperacion/ConsolidadoRegeneracionBuscar.aspx" title="Reportes consolidado centros de regeneración" permisos="819,820,821,822"/>
+	<siteMapNode url="Recuperacion/Correspondencia.aspx" title="Correspondencia" permisos="823"/>
+	<siteMapNode url="Recuperacion/RecuperacionConsultas.aspx" title="Consultas" permisos="824,825,826,827,828"/>
+	<siteMapNode url="Recuperacion/Cubo.aspx" title="Tabla dinámica" permisos="829"/>-->
+
+  <siteMapNode url="Recuperacion/SolicitudEquiposBuscar.aspx?tipo=1" title="Solicitud y adjudicación" permisos="801,802,803,804"/>
+  <siteMapNode url="Recuperacion/ReporteUsoBuscar.aspx" title="Reportes de uso" permisos="811,812,813,814"/>
+  <siteMapNode url="Recuperacion/ConsultaFicha.aspx" title="Consultas" permisos="824"/>
+  <siteMapNode url="Recuperacion/Cubo.aspx" title="Tabla dinámica" permisos="829"/>
+  
+  <siteMapNode url="Recuperacion/SolicitudEquiposBuscar.aspx?tipo=2" title="Solicitud y adjudicación" permisos="801,802,803,804"/>
+  <siteMapNode url="Recuperacion/ReporteUsoBuscar.aspx?tipo=0" title="Reportes de uso" permisos="811,812,813,814"/>
+  <siteMapNode url="Recuperacion/ConsultaFicha.aspx?tipo=1" title="Consultas" permisos="824"/>
+  <siteMapNode url="Recuperacion/CuboBarrido.aspx" title="Tabla dinámica" permisos="829"/>
+  
+  <siteMapNode url="Recuperacion/SolicitudEquiposBuscar.aspx?tipo=3" title="Solicitud y adjudicación" permisos="815,816,817"/>
+  <siteMapNode url="Recuperacion/ConsolidadoRegeneracionBuscar.aspx" title="Reportes centros de regeneración" permisos="819,820,821"/>
+  <siteMapNode url="Recuperacion/ConsultaFicha.aspx?tipo=2" title="Consultas" permisos="825"/>
+  <siteMapNode url="Recuperacion/CuboCentroRegeneracion.aspx" title="Tabla dinámica" permisos="828"/>
+  
+  <siteMapNode url="Recuperacion/SolicitudEquiposBuscar.aspx?tipo=4" title="Solicitud y adjudicación" permisos="830,831,832"/>
+  <siteMapNode url="Recuperacion/CentroAcopioBuscar.aspx" title="Reportes de los centros de acopio" permisos="833,834,835"/>
+  <siteMapNode url="Recuperacion/ConsultaFicha.aspx?tipo=3" title="Consultas" permisos="836"/>
+  <siteMapNode url="Recuperacion/CuboCentroAcopio.aspx" title="Tabla dinámica" permisos="837"/>
+
+  <siteMapNode url="Comunes/TerceroBuscar.aspx" title="Técnicos / Empresas" permisos="1001,1002,1003,1004"/>
+	<siteMapNode url="Comunes/Sustancia.aspx" title="Sustancia" permisos="1005"/>
+	<siteMapNode url="Comunes/Aduana.aspx" title="Aduana" permisos="1006"/>
+	<siteMapNode url="Comunes/Marca.aspx" title="Marca" permisos="1007"/>
+	<siteMapNode url="Comunes/Pais.aspx" title="Pais" permisos="1008"/>
+	<siteMapNode url="Comunes/Presentacion.aspx" title="Presentaci&#243;n sustancia" permisos="1009"/>
+	<siteMapNode url="Comunes/Categoria.aspx" title="Categor&#237;a" permisos="1010"/>
+	<siteMapNode url="Comunes/Sector.aspx" title="Sector" permisos="1011"/>
+	<siteMapNode url="Comunes/TipoProyecto.aspx" title="Tipo proyecto" permisos="1012"/>
+	<siteMapNode url="Comunes/GrupoProyecto.aspx" title="Grupo proyecto" permisos="1013"/>
+	<siteMapNode url="Comunes/ConceptoVB.aspx" title="Concepto Visto Bueno" permisos="1014"/>
+	<siteMapNode url="Comunes/GasDestino.aspx" title="Destino gas" permisos="1015"/>
+	<siteMapNode url="Comunes/GasTipo.aspx" title="Tipo gas" permisos="1016"/>
+	<siteMapNode url="Comunes/GasUso.aspx" title="Uso gas" permisos="1017"/>
+	<siteMapNode url="Comunes/DocumentoVerificar.aspx" title="Documentos verificaci&#243;n" permisos="1018"/>
+  <siteMapNode url="Comunes/ProyectoRecuperacion.aspx" title="Proyectos" permisos="1019"/>
+  <siteMapNode url="Comunes/LicitacionCompra.aspx" title="Licitaci&#243;n compra" permisos="1019"/>
+	<siteMapNode url="Comunes/Kitcompra.aspx" title="Kits compra" permisos="1019"/>
+	<siteMapNode url="Comunes/EquipoKit.aspx" title="Equipo kits" permisos="1020"/>
+	<siteMapNode url="Comunes/CategoriaEquipo.aspx" title="Cateogr&#237;a equipo" permisos="1021"/>
+	<siteMapNode url="Comunes/TipoEquipo.aspx" title="Tipo equipo uso" permisos="1022"/>
+	<siteMapNode url="Comunes/SectorUso.aspx" title="Sector" permisos="1023"/>
+	<siteMapNode url="Seguridad/GruposBuscar.aspx" title="Grupos" permisos="1101"/>
+	<siteMapNode url="Seguridad/UsuariosBuscar.aspx" title="Usuarios" permisos="1102"/>
+	<siteMapNode url="Seguridad/AuditoriaConsulta.aspx" title="Consulta de auditoría" permisos="1103"/>
+	<siteMapNode url="Seguridad/Historico.aspx" title="Histórico auditoría" permisos="1104"/>
+</permisos>
+
+

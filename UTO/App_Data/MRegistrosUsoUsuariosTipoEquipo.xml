@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipo>
+  <tipochild value="-1" descripcion="Seleccione.."></tipochild>
+  <tipochild value="0" descripcion="Nevera vertical"></tipochild>
+  <tipochild value="1" descripcion="Botellero"></tipochild>
+  <tipochild value="2" descripcion="Fuente Agua"></tipochild>
+  <tipochild value="3" descripcion="Vitrina refrigerada"></tipochild>
+  <tipochild value="4" descripcion="Cuartos fríos"></tipochild>
+</tipo>

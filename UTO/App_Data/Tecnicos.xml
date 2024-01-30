@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tecnico>
+  <tecnicochild  TipoDocumento="Cédula Ciudadanía" Documento="86258741" Nombre="Sandra Maldonado" Departamento="Cundinamarca" Ciudad="Bogotá" Dirección="cll 7 - 8" Teléfono="5391305" Celular="3112589825" Email="sandra@gmail.com" Fax="2223344" Cargo="tecnico operativo" Empresa="Refriplus">
+  </tecnicochild>
+  <tecnicochild  TipoDocumento="Cédula Ciudadanía" Documento="75894658" Nombre="Humberto Rojas" Departamento="Atlántico" Ciudad="Barranquilla" Dirección="cr 1 - 20" Teléfono="6395318" Celular="3152547895" Email="hrojas@hotmail.com" Fax="" Cargo="tecnico" Empresa="Refriplus">
+  </tecnicochild>
+  <tecnicochild  TipoDocumento="Cédula Ciudadanía" Documento="24256987" Nombre="Arturo Perez" Departamento="Cundinamarca" Ciudad="Bogoté" Dirección="cll 147 - 9" Teléfono="7235243" Celular="3102269878" Email="arturoP@gmail.com" Fax="" Cargo="tecnico" Empresa="">
+  </tecnicochild>
+  <tecnicochild  TipoDocumento="Cédula Ciudadanía" Documento="59874596" Nombre="Crlos Sora" Departamento="Antioquia " Ciudad="Medellin" Dirección="cr 2 -6" Teléfono="6987142" Celular="3153698521" Email="carlos@hotmail.com" Fax="" Cargo="tecnico" Empresa="">
+  </tecnicochild>
+  <tecnicochild  TipoDocumento="Cédula Ciudadanía" Documento="32145879" Nombre="Andres Salamanca" Departamento="Cundinamarca" Ciudad="Bogotá" Dirección="cll 7 - 10 " Teléfono="2214589" Celular="3105897845" Email="sandres@gmail.com" Fax="" Cargo="tecnico" Empresa="">
+  </tecnicochild>
+</tecnico>

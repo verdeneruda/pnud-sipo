@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<reportadas>
+  <reportadaschild Cliente="C.I Polipanel.S.A" Sustancia="R-22" Presentacion="Cilindro de 30 LBS" Cantidad="1.088,00" Aplicacion="Refrigeración"></reportadaschild>
+  <reportadaschild Cliente="Tecnifrio LTDA" Sustancia="R-22" Presentacion="Cilindro de 30 LBS" Cantidad="408,00" Aplicacion="Refrigeración"></reportadaschild>
+  <reportadaschild Cliente="Sutrak S.A" Sustancia="R-22" Presentacion="Tarro de 1 KG" Cantidad="908,00" Aplicacion="Refrigeración"></reportadaschild>
+</reportadas>

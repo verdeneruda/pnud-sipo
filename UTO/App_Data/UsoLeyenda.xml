@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<usoleyenda>
+  <usoleyendachild  value="-1" descripcion="Seleccione..">
+  </usoleyendachild>
+  <usoleyendachild value="1" descripcion="A(Se recuper/recicla)"></usoleyendachild>
+  <usoleyendachild value="2" descripcion="B(Se vende)"></usoleyendachild>
+  <usoleyendachild value="3" descripcion="C(No se puede reutilizar)"></usoleyendachild>
+  <usoleyendachild value="4" descripcion="D(Se libera al ambiente)"></usoleyendachild>
+  <usoleyendachild value="5" descripcion="E(Otros usos)"></usoleyendachild>
+  <usoleyendachild value="6" descripcion="F(Se envía a centro de regeneración)"></usoleyendachild>
+</usoleyenda>

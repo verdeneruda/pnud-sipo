@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipodocumento>
+  <tipodocumentochild  value="-1" descripcion="Seleccione..">
+  </tipodocumentochild>
+  <tipodocumentochild value="1" descripcion="R-409A"></tipodocumentochild>
+  <tipodocumentochild value="2" descripcion="R-404A"></tipodocumentochild>
+  <tipodocumentochild value="2" descripcion="R-134A"></tipodocumentochild>
+</tipodocumento>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<destinogas>
+  <destinogaschild  value="-1" descripcion="Seleccione..">
+  </destinogaschild>
+  <destinogaschild value="1" descripcion="Entrega al beneficiario"></destinogaschild>
+  <destinogaschild value="2" descripcion="Uso propio del centro"></destinogaschild>
+</destinogas>

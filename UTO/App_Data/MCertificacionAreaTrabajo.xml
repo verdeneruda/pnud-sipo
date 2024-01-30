@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<areas>
+  <area id="0" value="Seleccione.."></area>
+  <area id="1" value="No aplica"></area>
+  <area id="2" value="Refrigeración doméstica y comercial"></area>
+  <area id="3" value="Aire acondicionado"></area>
+  <area id="4" value="Transporte refrigerado"></area>
+  <area id="5" value="Aire acondicionado móvil"></area>
+  <area id="5" value="Refrigeración industrial"></area>
+</areas>

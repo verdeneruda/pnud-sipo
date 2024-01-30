@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<marca>
+  <marcachild Sustancia="R-134a" Presentacion="Lata x 340 g" Marca="Dupont" Departamento="Bolívar" Ciudad="Cartagena"> </marcachild>
+  <marcachild Sustancia="R-134a" Presentacion="Lata x 340 g" Marca="Genetron" Departamento="Atlántico" Ciudad="Barranquilla" > </marcachild>
+</marca>

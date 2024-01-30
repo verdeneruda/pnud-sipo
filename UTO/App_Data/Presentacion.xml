@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<presentacion>
+  <presentacionchild value="-1" descripcion="Seleccione.."></presentacionchild>
+  <presentacionchild value="0" descripcion="Lata x 340 g"></presentacionchild>
+  <presentacionchild value="1" descripcion="Lata x 750 g"></presentacionchild>
+  <presentacionchild value="2" descripcion="Lata x 1000 g"></presentacionchild>
+  <presentacionchild value="3" descripcion="Cilindro x 10,9 Kg"></presentacionchild>
+  <presentacionchild value="4" descripcion="Cilindro x 13,6 Kg"></presentacionchild>
+</presentacion>

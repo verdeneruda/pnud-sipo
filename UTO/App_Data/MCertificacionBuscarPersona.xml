@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<persona>
+  <personachild Tipo_documento="Cédula Ciudadanía" Número_documento="1020458963" Nombre="Ruben Roncancio Herrera" Email="ruben@gmail.com" ></personachild>
+  <personachild Tipo_documento="Cédula Ciudadanía" Número_documento="80275456" Nombre="Sara Lucia Amaya" Email="liveblue@gmail.com" ></personachild>
+  <personachild Tipo_documento="Cédula Ciudadanía" Número_documento="60789456" Nombre="Lina Sora Castro" Email="lina@gmail.com" ></personachild>
+  
+</persona>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<beneficiario>
+  <beneficiariochild value="1" descripcion="HENRY OSWALDO CRUZ"></beneficiariochild>
+  <beneficiariochild value="2" descripcion="LUIS FERNANDO CERON LOPEZ"></beneficiariochild>
+  <beneficiariochild value="3" descripcion="AIR ANDES Y CIA LTDA"></beneficiariochild>
+  <beneficiariochild value="4" descripcion="AIRE NEIVA LTDA"></beneficiariochild>
+  <beneficiariochild value="5" descripcion="AIRE Y CONFORT LTDA"></beneficiariochild>
+  <beneficiariochild value="6" descripcion="ALBERTO ROSAS SUAREZ"></beneficiariochild>
+  <beneficiariochild value="7" descripcion="ALIRIO ESCOBAR"></beneficiariochild>
+</beneficiario>

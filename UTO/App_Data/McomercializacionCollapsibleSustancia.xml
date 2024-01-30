@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sustancia>
+ <sustanciachild Proveedor="N.D." Sustancia="R-134a" Presentacion="Lata x 340 g" Marca="Dupont" Precio="9.000" Observacion="">
+ </sustanciachild>
+<sustanciachild Proveedor="N.D." Sustancia="R-134a" Presentacion="Lata x 340 g" Marca="Klea" Precio="9.000" Observacion="">  
+</sustanciachild>
+</sustancia>

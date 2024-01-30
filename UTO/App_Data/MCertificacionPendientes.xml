@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pendientes>
+  
+  <pendietnechild Dias="1" tipo_Alerta="vencimiento certificado técnicos" Descripcion_Alerta="" ID_Registro="5" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="10" tipo_Alerta="vencimiento inscripción" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="pendiente recibo minuta" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="5" tipo_Alerta="vencimiento poliza" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="6" tipo_Alerta="pendiente acta equipos" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="5" tipo_Alerta="pendiente reporte uso" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="pendiente reporte centro regeneración" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="8" tipo_Alerta="vencimiento certificado importación empresa Y equipo X" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="9" tipo_Alerta="vencimiento certificado de la empresa Y sustancia X" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="6" tipo_Alerta="vencimiento terminación proyecto" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="8" tipo_Alerta="faltan campos por diligenciar registro comercialización" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="marca comercial nueva" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="presentación no común" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="precio del producto muy alto" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="precio del producto muy bajo" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="faltan campos por diligenciar disposición final" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+  <pendietnechild Dias="7" tipo_Alerta="disminución cantidad sustancia registrada" Descripcion_Alerta="" ID_Registro="4" Parametro1="" Parametro2="" Parametro3=""></pendietnechild>
+
+</pendientes>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<aduana>
+  <aduanachild value="-1" descripcion="Seleccione.."></aduanachild>
+  <aduanachild value="0" descripcion="Buenaventura"></aduanachild>
+  <aduanachild value="1" descripcion="Barranquilla"></aduanachild>
+  <aduanachild value="2" descripcion="Cartagena"></aduanachild>
+</aduana>

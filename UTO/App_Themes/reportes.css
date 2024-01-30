@@ -1,0 +1,122 @@
+﻿.tablaInforme
+{
+	width: 100%;
+	border: 1;
+}
+
+.tablaInformeDetalle
+{
+	width: 100%;
+	border: 1;
+}
+
+th.tablaInformeDetalle
+{
+    width:auto;
+	background-color:#eeeeee;	
+}
+
+.labelInforme
+{
+	font-family: Times New Roman;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:bold;
+	color: rgb(31,73,125);
+	background-color:Silver;
+}
+
+.datoInforme
+{
+	font-family: Times New Roman;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:bold;
+	color: rgb(31,73,125);
+}
+
+.datoInformeDer
+{
+	font-family: Times New Roman;
+	font-size: 14px;
+	font-style:normal;
+	font-weight:bold;
+	color: rgb(31,73,125);
+}
+
+.titulo_1
+{
+	font-family: Times New Roman;
+	text-align: center;	
+	font-size: 18px;
+	font-style:normal;
+	font-weight:bold;
+	color: rgb(31,73,125);
+}
+
+.footer_1
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-style:normal;
+	font-weight:bold;
+	color:Black ;
+}
+
+.fecha
+{
+	font-family:Arial;
+	font-size: 12px;
+	font-style:normal;
+	color: rgb(31,73,125);
+}
+
+a.entrar:link
+{
+	font-family:Arial;
+	font-size: 14px;
+	font-style:normal;
+	text-decoration: none;
+	color:White;
+}
+
+a.entrar:visited
+{
+	font-family:Arial;
+	font-size: 14px;
+	font-style:normal;
+	text-decoration: none;
+	color:White;
+}
+
+a.entrar:hover
+{
+	font-family:Arial;
+	font-size: 14px;
+	font-style:normal;
+	text-decoration: none;
+	color:White;
+}
+
+a.entrar:active
+{
+	font-family:Arial;
+	font-size: 14px;
+	font-style:normal;
+	text-decoration: none;
+	color:White;
+}
+
+.header_image1
+{
+	background-image:url(../img/default_r2_c2.jpg);
+	background-repeat: no-repeat;
+}
+
+.header_image2
+{
+	background-image:url(../img/default_r2_c5.jpg);
+	background-repeat: no-repeat;
+}
+
+

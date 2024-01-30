@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<datosreporterecuperacion>
+  <datosreporterecuperacionchild  Mes="Enero"  Gas ="R-409A" CantidadVendidaLb="10" CantidadVendidaKg ="10" PrecioPromedio ="10000"></datosreporterecuperacionchild>
+  <datosreporterecuperacionchild  Mes="Febrero"  Gas ="R-409A" CantidadVendidaLb="10" CantidadVendidaKg ="10" PrecioPromedio ="10000"></datosreporterecuperacionchild>
+  <datosreporterecuperacionchild  Mes="Marzo"  Gas ="R-409A" CantidadVendidaLb="10" CantidadVendidaKg ="10" PrecioPromedio ="10000"></datosreporterecuperacionchild>\
+</datosreporterecuperacion>

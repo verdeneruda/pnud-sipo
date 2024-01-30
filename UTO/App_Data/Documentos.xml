@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<documento>
+  <documentochild  asunto="Certificación" fecha ="2010-01-01"> </documentochild>
+  <documentochild  asunto="Cámara comercio" fecha ="2010-01-01"> </documentochild>
+  <documentochild  asunto="Rut" fecha ="2010-01-01"> </documentochild> 
+</documento>

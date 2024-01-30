@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lista>
+  <listachild  Pregunta="¿Está bien clasificada la mercancía?"></listachild>
+  <listachild  Pregunta="¿Tiene certificado vigente?"></listachild>
+  <listachild  Pregunta="¿Corresponde el fabricante con el certificado?"></listachild>
+  <listachild  Pregunta="¿Menciona el gas refrigerante?"></listachild>
+  <listachild  Pregunta="¿Menciona el agente de soplado?"></listachild>
+</lista>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<estadosolicitud>
+  <estadosolicitudchild value="-1" descripcion="Seleccione.."> </estadosolicitudchild>
+  <estadosolicitudchild value="1" descripcion="Recepción de documentos"> </estadosolicitudchild>
+  <estadosolicitudchild value="2" descripcion="Estudios previos"> </estadosolicitudchild>
+  <estadosolicitudchild value="3" descripcion="Elaboración minuta"> </estadosolicitudchild>
+  <estadosolicitudchild value="4" descripcion="Trámite poliza"> </estadosolicitudchild>
+  <estadosolicitudchild value="5" descripcion="Aprobación poliza"> </estadosolicitudchild>
+  <estadosolicitudchild value="6" descripcion="Envío equipos"> </estadosolicitudchild>
+  <estadosolicitudchild value="7" descripcion="Entregados"> </estadosolicitudchild>
+</estadosolicitud>

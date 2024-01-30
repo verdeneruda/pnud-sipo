@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pais >
+  <paischild value="-1" descripcion="Seleccione.."></paischild>
+  <paischild value="0" descripcion="USA"></paischild>
+  <paischild value="1" descripcion="Brasil"></paischild>
+  <paischild value="2" descripcion="Panama"></paischild>
+  <paischild value="3" descripcion="China"></paischild>
+  <paischild value="4" descripcion="Mexico"></paischild>
+</pais>

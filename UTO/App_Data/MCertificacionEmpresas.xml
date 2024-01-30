@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<empresa>
+  <empresachild   CTG="uto" Nit="No aplica" Razon_Social="Unidad Técnica De Ozono - Regional eje cafetero"  Departamento="Risaralda" Ciudad="Pereira" Dirección="Urbanizacion Venecia casa 26" Teléfono="3210110"  Fax=""  Email="omarly77@yahoo.com.mx"  Numero_Estimado="0"></empresachild>
+  <empresachild   CTG="cpt" Nit="98.560.030-1" Razon_Social="Instituto DE Refrigeración De Antioquia"  Departamento="Risaralda" Ciudad="Pereira" Dirección="Cra 10 No. 24-40" Teléfono="3335420"  Fax=""  Email=""  Numero_Estimado="17"></empresachild>
+  <empresachild   CTG="emp" Nit="18.501.353-0" Razon_Social="Refriplus"  Departamento="Risaralda" Ciudad="Pereira" Dirección="Cra 4 No. 16-20" Teléfono="3254449"  Fax=""  Email="refriplus@yahoo.com"  Numero_Estimado="9"></empresachild>
+</empresa>

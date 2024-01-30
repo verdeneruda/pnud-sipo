@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bucscarterceros>
+  <bucscarterceroschild  Regional="CENTRO" Beneficiario="AIRCOND LTDA." TipoDocumento ="NIT" Documento ="1254587"></bucscarterceroschild>
+  <bucscarterceroschild  Regional="SUROCCIDENTE" Beneficiario="A.F. REFRIGERACION S.A." TipoDocumento ="NIT" Documento ="789456"></bucscarterceroschild>
+  <bucscarterceroschild  Regional="ANTIOQUIA" Beneficiario="Pedro Pérez" TipoDocumento ="Cédula Ciudadanía" Documento ="79.548.542"></bucscarterceroschild>
+</bucscarterceros>

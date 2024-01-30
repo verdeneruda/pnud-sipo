@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<estado>
+  <estadochild value="-1" descripcion="Seleccione.."></estadochild>
+  <estadochild value="0" descripcion="Buen estado"></estadochild>
+  <estadochild value="1" descripcion="Reciclado"></estadochild>
+  <estadochild value="2" descripcion="Recuperado"></estadochild>
+  <estadochild value="3" descripcion="Recuperado,contaminado quema compresor"></estadochild>
+  <estadochild value="4" descripcion="Residuo"></estadochild>
+  <estadochild value="5" descripcion="Residuo contaminado"></estadochild>
+  <estadochild value="6" descripcion="Virgen en desuso"></estadochild>
+</estado>

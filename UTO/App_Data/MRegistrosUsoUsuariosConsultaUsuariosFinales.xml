@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild Tipo_Usuario="Distribuidor" Sector="Alimentos y bebidas"  Empresa="Refrigerar y accesorios" Cantidad_Kg="100" Sustancia="CFC R – 12" Categoria_Equipo="Aplicaciones Industriales" Tipo_Equipo="Cuartos fríos"></consultachild>
+  <consultachild Tipo_Usuario="Comercializador" Sector="Telecomunicaciones" Empresa="Sei Y Cia LTDA" Cantidad_Kg="100" Sustancia="HFC R – 134a" Categoria_Equipo="Aplicaciones Industriales" Tipo_Equipo="Cuartos fríos"></consultachild>
+  <consultachild Tipo_Usuario="Empresa usuaria final" Sector="Bancario" Empresa="Tecno Electric" Cantidad_Kg="100" Sustancia="HFC R- 410A" Categoria_Equipo="Aplicaciones Industriales" Tipo_Equipo="Cuartos fríos"></consultachild>
+</consulta>

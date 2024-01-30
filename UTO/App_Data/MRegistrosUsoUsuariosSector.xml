@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sector>
+  <sectorchild value="-1" descripcion="Seleccione.."></sectorchild>
+  <sectorchild value="0" descripcion="Alimentos y bebidas"></sectorchild>
+  <sectorchild value="1" descripcion="Telecomunicaciones"></sectorchild>
+  <sectorchild value="2" descripcion="Bancario"></sectorchild>
+  <sectorchild value="3" descripcion="Energía"></sectorchild>
+  <sectorchild value="4" descripcion="Turismo"></sectorchild>
+  <sectorchild value="5" descripcion="Centros comerciales"></sectorchild>
+  <sectorchild value="6" descripcion="Supermercados e hipetrmercados"></sectorchild>
+  <sectorchild value="7" descripcion="Salud"></sectorchild>
+  <sectorchild value="8" descripcion="Industria 1"></sectorchild>
+  <sectorchild value="9" descripcion="Industria 2"></sectorchild>
+  <sectorchild value="10" descripcion="Farmacéutico"></sectorchild>
+  <sectorchild value="11" descripcion="Transporte"></sectorchild>
+  <sectorchild value="12" descripcion="Agrícola"></sectorchild>
+</sector>

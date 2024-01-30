@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<puerto>
+  <puertochild value="-1" descripcion="Seleccione.."></puertochild>
+  <puertochild value="0" descripcion="Altamira"></puertochild>
+  <puertochild value="1" descripcion="Ningbo"></puertochild>
+  <puertochild value="2" descripcion="Qingdao"></puertochild>
+</puerto>

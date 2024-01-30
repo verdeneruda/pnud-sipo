@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cargue>
+  <carguecild Año="2008" Archivo="c:\Importacion2008.xls"></carguecild>
+  <carguecild Año="2009" Archivo="c:\Importacion2009.xls"></carguecild>
+</cargue>

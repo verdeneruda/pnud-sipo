@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<fabricante>
+  <fabricantechild value="-1" descripcion="Seleccione.."></fabricantechild>
+  <fabricantechild value="0" descripcion="D"></fabricantechild>
+  <fabricantechild value="1" descripcion="D.España"></fabricantechild>
+  <fabricantechild value="2" descripcion="F"></fabricantechild>
+  <fabricantechild value="3" descripcion="Indurama"></fabricantechild>
+  <fabricantechild value="4" descripcion="ninguno"></fabricantechild>
+  <fabricantechild value="5" descripcion="SIA"></fabricantechild>
+  <fabricantechild value="6" descripcion="Un tercero"></fabricantechild>
+</fabricante>

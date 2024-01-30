@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<datosreporterecuperacion>
+  <datosreporterecuperacionchild  Beneficiario ="HENRY OSWALDO CRUZ" Fecha="Enero"  Gas ="R-409A" CantidadEntregada="10" CantidadRegenerada ="9" Destino ="Beneficiario"></datosreporterecuperacionchild>
+  <datosreporterecuperacionchild  Beneficiario ="AIR ANDES Y CIA LTDA" Fecha="Febrero"  Gas ="R-409A" CantidadEntregada="10" CantidadRegenerada ="9" Destino ="Beneficiario"></datosreporterecuperacionchild>
+  <datosreporterecuperacionchild  Beneficiario ="AIRE NEIVA LTDA" Fecha="Marzo"  Gas ="R-409A" CantidadEntregada="10" CantidadRegenerada ="9" Destino ="Beneficiario"></datosreporterecuperacionchild>\
+</datosreporterecuperacion>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<centroregeneracion>
+  <centroregeneracionchild  value="-1" descripcion="Seleccione..">
+  </centroregeneracionchild>
+  <centroregeneracionchild value="1" descripcion="Bogotá"></centroregeneracionchild>
+  <centroregeneracionchild value="2" descripcion="Calí"></centroregeneracionchild>
+  <centroregeneracionchild value="3" descripcion="Medellín "></centroregeneracionchild>
+  <centroregeneracionchild value="4" descripcion="Barranquilla"></centroregeneracionchild>
+  <centroregeneracionchild value="5" descripcion="Pereira"></centroregeneracionchild>
+</centroregeneracion>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<busqueda>
+  <busquedachild NúmeroLicencia="12" Importador="Incopar LTDA" Concepto="Requerimiento" Fecha_inicio="05/10/2010"></busquedachild>
+  <busquedachild NúmeroLicencia="25" Importador="Refrinorte Ltda" Concepto="Visto Bueno" Fecha_inicio="25/12/2010"></busquedachild>
+</busqueda>

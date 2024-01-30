@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild Sustancias="HCFC-141b" Pais="Ecuador" CantidadImportadaNuevaTodosUsos="109.66" CantidadImportadaRecuperadaTodosUsos ="0" CantidadesMateriasPrimas="0"
+                 CantidadesUsosEsenciales ="0" DecisionTipoUso="">  </consultachild>
+  <consultachild Sustancias="Halon-1301" Pais="Estados Unidos" CantidadImportadaNuevaTodosUsos="0" CantidadImportadaRecuperadaTodosUsos ="7.74" CantidadesMateriasPrimas="0"
+                 CantidadesUsosEsenciales ="0" DecisionTipoUso="">  </consultachild>
+
+</consulta>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<detalle>
+  <detallechild EstadoCertificacion="Vencida" Radicado="AD Electronics S.A." Importador ="AD Electronics S.A." Fabricante="American Distributors, Inc" Pais="China" Descripción="Aire acondicionado">  </detallechild>
+    <detallechild EstadoCertificacion="Vigente" Radicado="Electrolux S.A." Importador="Electrolux S.A." Fabricante="Electrolux do Brasil S.A." Pais="China" Descripción="Aire acondicionado">  </detallechild>   
+</detalle>

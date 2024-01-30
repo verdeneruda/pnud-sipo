@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<documentoEstudio>
+  <documentochild  documento="GARANTÍA CUMPLIMIENTO 10% VALOR DEL BIEN" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="FECHA GARANTÍA (4 años y 4 meses desde expedición póliza)" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="CONSTANCIA DE PAGO DE LA GARANTÍA" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="RECIBO PAGO PUBLICACIÓN DEL CONTRATO" fecha ="2010-01-01"> </documentochild>
+  <documentochild  documento="OTROS" fecha ="2010-01-01"> </documentochild>
+</documentoEstudio>

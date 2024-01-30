@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipos>
+  <tiposchild value="-1" descripcion="Seleccione.."></tiposchild>
+  <tiposchild value="0" descripcion="Actualización Programa País"></tiposchild>
+  <tiposchild value="1" descripcion="Agente de Proceso"></tiposchild>
+  <tiposchild value="2" descripcion="Aire Acondicionado Móvil"></tiposchild>
+  <tiposchild value="3" descripcion="Asistencia preparación proyecto"></tiposchild>
+  <tiposchild value="4" descripcion="Asistencia Técnica"></tiposchild>
+  <tiposchild value="5" descripcion="Capacitación funcionarios Aduana"></tiposchild>
+  <tiposchild value="6" descripcion="Comercial"></tiposchild>
+  <tiposchild value="7" descripcion="Rigida"></tiposchild>
+  <tiposchild value="8" descripcion="Solvente"></tiposchild>
+</tipos>

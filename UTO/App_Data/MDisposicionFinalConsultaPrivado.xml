@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild  Empresa="Frio centry" Sustancia="Residuos de CFC-11" Cantidad_Kg="120" Estado="Residuo" Departamento="Bogotá" Ciudad="Bogotá" >
+  </consultachild>
+  <consultachild Empresa="Refrigerar y accesorios" Sustancia="Halon-1301" Cantidad_Kg="350" Estado="Virgen en desuso" Departamento="Tolima" Ciudad="Ibague" >
+  </consultachild>
+</consulta>

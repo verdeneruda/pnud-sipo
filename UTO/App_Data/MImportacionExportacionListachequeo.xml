@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lista>
+  <listachild  verificada="0" Pregunta="¿Está bien clasificada la mercancía?"></listachild>
+  <listachild verificada="0" Pregunta="¿Corresponde el nombre técnico?"></listachild>
+  <listachild verificada="0" Pregunta="¿Corresponde el nombre comercial?"></listachild>
+  <listachild verificada="0" Pregunta="¿Corresponde  la presentación a las conocidas?"></listachild>
+  <listachild verificada="0" Pregunta="¿Corresponde el uso a los usos conocidos?"></listachild>
+  <listachild verificada="0" Pregunta="¿El precio de compra está dentro del rango actual de precios?"></listachild>
+  <listachild verificada="0" Pregunta="¿País de origen? ¿Es el país exportador conocido?"></listachild>
+  <listachild verificada="0" Pregunta="¿Tiene número CAS?"></listachild>
+  <listachild verificada="0" Pregunta="Para CFC, ¿tiene cupo?"></listachild>
+  <listachild verificada="1" Pregunta="Para CFC, ¿Tiene Lic. Amb. o medidas de manejo?"></listachild>
+</lista>

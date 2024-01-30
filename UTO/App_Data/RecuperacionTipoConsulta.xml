@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipo>
+  <tipochild value="-1" descripcion="Seleccione..">
+  </tipochild>
+
+  <tipochild value="0" descripcion="Consolidado reporte de uso">
+  </tipochild>
+  <tipochild value="1" descripcion="Consolidado reporte centros regeneración">
+  </tipochild>
+  <tipochild value="2" descripcion="Consulta de novedades">
+  </tipochild>
+  <tipochild value="3" descripcion="Consulta de polizas">
+  </tipochild>
+</tipo>

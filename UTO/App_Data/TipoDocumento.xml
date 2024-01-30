@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipodocumento>
+  <tipodocumentochild  value="-1" descripcion="Seleccione..">
+  </tipodocumentochild>
+  <tipodocumentochild value="1" descripcion="Cédula Ciudadanía"></tipodocumentochild>
+  <tipodocumentochild value="2" descripcion="Cédula extranjería"></tipodocumentochild>
+  <tipodocumentochild value="2" descripcion="Pasaporte"></tipodocumentochild>
+</tipodocumento>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<licitacion>
+  <licitacionchild  value="-1" descripcion="Seleccione..">
+  </licitacionchild>
+  <licitacionchild value="1" descripcion="Licitación no. 1"></licitacionchild>
+  <licitacionchild value="2" descripcion="Licitación no. 2"></licitacionchild>
+  <licitacionchild value="3" descripcion="Licitación no. 3"></licitacionchild>
+</licitacion>

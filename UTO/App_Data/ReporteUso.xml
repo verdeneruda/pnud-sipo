@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<reporteuso>
+  <reporteusochild  Fecha="2010-01-01" Regional="CENTRO" Beneficiario="AIRCOND LTDA." Departamento ="Bogota" Ciudad ="Bogota" Dirección="M 14 C 10 III Etapa. Bosques de la Acuarela" Teléfono="3369201"></reporteusochild>
+  <reporteusochild  Fecha="2010-02-01" Regional="SUROCCIDENTE" Beneficiario="A.F. REFRIGERACION S.A." Departamento ="Bogota" Ciudad ="Bogota" Dirección="M 14 C 10 III Etapa. Bosques de la Acuarela" Teléfono="3369201"></reporteusochild>
+  <reporteusochild  Fecha="2010-03-01" Regional="ANTIOQUIA" Beneficiario="AIMA LTDA." Departamento ="Bogota" Ciudad ="Bogota" Dirección="M 14 C 10 III Etapa. Bosques de la Acuarela" Teléfono="3369201"></reporteusochild>
+</reporteuso>

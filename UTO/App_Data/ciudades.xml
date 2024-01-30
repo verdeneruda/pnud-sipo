@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ciudad>
+  <ciudadchild value="-1" name="Seleccione..">
+  </ciudadchild>
+  <ciudadchild value="0" name="Barranquilla ">
+  </ciudadchild>
+  <ciudadchild value="1" name="Bogotá">
+  </ciudadchild>
+  <ciudadchild value="2" name="Cali">
+  </ciudadchild>
+  <ciudadchild value="3" name="Cúcuta">
+  </ciudadchild>
+  <ciudadchild value="4" name="Medellín">
+  </ciudadchild>
+</ciudad>

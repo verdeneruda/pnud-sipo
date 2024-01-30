@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<regional >
+  <regionalchild value="-1" descripcion="Seleccione.."></regionalchild>
+  <regionalchild value="0" descripcion="Antioquia"></regionalchild>
+  <regionalchild value="1" descripcion="Caribe"></regionalchild>
+  <regionalchild value="2" descripcion="Centro"></regionalchild>
+  <regionalchild value="3" descripcion="Eje Cafetero"></regionalchild>
+  <regionalchild value="4" descripcion="Nororiente"></regionalchild>
+  <regionalchild value="5" descripcion="Sierra Nevada"></regionalchild>
+  <regionalchild value="6" descripcion="Sur"></regionalchild>
+  <regionalchild value="7" descripcion="Suroccidente"></regionalchild>
+</regional>

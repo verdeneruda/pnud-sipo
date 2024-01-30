@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tiponovedad>
+  <tiponovedadchild  value="-1" descripcion="Seleccione..">
+  </tiponovedadchild>
+  <tiponovedadchild value="1" descripcion="OtroSi"></tiponovedadchild>
+  <tiponovedadchild value="2" descripcion="Terminación"></tiponovedadchild>
+</tiponovedad>

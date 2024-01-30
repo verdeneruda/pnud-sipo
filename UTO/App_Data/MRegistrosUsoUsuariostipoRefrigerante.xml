@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tiporefrigerante>
+  <tiporefrigerantechild value="-1" descripcion="Seleccione.."></tiporefrigerantechild>
+  <tiporefrigerantechild value="0" descripcion="CFC"></tiporefrigerantechild>
+  <tiporefrigerantechild value="1" descripcion="HCFC"></tiporefrigerantechild>
+  <tiporefrigerantechild value="2" descripcion="HFC"></tiporefrigerantechild>
+  <tiporefrigerantechild value="3" descripcion="Otros Refrigerantes"></tiporefrigerantechild>
+</tiporefrigerante>

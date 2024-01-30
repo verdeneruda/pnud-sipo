@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ctg>
+  <ctgchild value="0" descripcion="Centro de formación SENA" ></ctgchild>
+  <ctgchild value="1" descripcion="Taller de mantenimiento" ></ctgchild>
+  <ctgchild value="2" descripcion="Centro educativo(universidad,institutos técnicos,etc)"></ctgchild>
+  <ctgchild value="3" descripcion="Usuario final" ></ctgchild>
+  <ctgchild value="4" descripcion="Entidades(UTO,CAR,SENA,secretarías municipales,alcaldías,etc)"></ctgchild>
+</ctg>

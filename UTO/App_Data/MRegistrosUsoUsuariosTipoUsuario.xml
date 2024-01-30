@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipousuario>
+  <tipousuariochild value="-1" descripcion="Seleccione.."></tipousuariochild>
+  <tipousuariochild value="0" descripcion="Distribuidor"></tipousuariochild>
+  <tipousuariochild value="1" descripcion="Comercializador"></tipousuariochild>
+  <tipousuariochild value="2" descripcion="Empresa de montaje y/o mantenimiento"></tipousuariochild>
+  <tipousuariochild value="3" descripcion="Empresa usuaria final"></tipousuariochild>
+</tipousuario>

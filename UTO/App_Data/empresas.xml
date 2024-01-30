@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<empresas>
+  <empresaschild  descripcion="Seleccione.." value="-1"></empresaschild>
+  <empresaschild descripcion="Independiente" value="0"></empresaschild>
+  <empresaschild descripcion="Casa de las grecas y refrigerantes" value="1"></empresaschild>
+  <empresaschild descripcion="Frio centry" value="2"></empresaschild>
+  <empresaschild descripcion="Refrigerar y accesorios" value="3"></empresaschild>
+  <empresaschild descripcion="Sei Y Cia LTDA." value="4"></empresaschild>
+  <empresaschild descripcion="Tecno Electric" value="5"></empresaschild>
+</empresas>

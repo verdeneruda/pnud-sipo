@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ctg>
+  <ctgchild value="-1" descripcion="Seleccione.." ></ctgchild>
+  <ctgchild value="1" descripcion="Trabajador identificado" ></ctgchild>
+  <ctgchild  value="2" descripcion="Trabajador caracterizado" ></ctgchild>
+  <ctgchild value="3"  descripcion="Trabajador certificado" ></ctgchild>
+  <ctgchild value="4" descripcion="Instructor-docente" ></ctgchild>
+  <ctgchild value="5" descripcion="Evaluador" ></ctgchild>
+  <ctgchild value="6" descripcion="Otro" ></ctgchild>
+</ctg>

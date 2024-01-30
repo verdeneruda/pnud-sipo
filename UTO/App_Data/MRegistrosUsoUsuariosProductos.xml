@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productos>
+  <productoschild value="-1" descripcion="Seleccione.."> </productoschild>
+  <productoschild value="0" descripcion="R – 12"> </productoschild>
+  <productoschild value="1" descripcion="R – 11"> </productoschild>
+  <productoschild value="2" descripcion="R – 502"> </productoschild>
+  <productoschild value="3" descripcion="R- 22"> </productoschild>
+  <productoschild value="4" descripcion="R - 141b"> </productoschild>
+  <productoschild value="5" descripcion="R – 123"> </productoschild>
+  <productoschild value="6" descripcion="R – 134a"> </productoschild>
+  <productoschild value="7" descripcion="R – 404A"> </productoschild>
+  <productoschild value="8" descripcion="R- 507A"> </productoschild>
+  <productoschild value="9" descripcion="R- 407C"> </productoschild>
+  <productoschild value="10" descripcion="R- 410A"> </productoschild>
+</productos>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<importadores>
+  <importadoreschild  value="-1" descripcion="Seleccione..">
+  </importadoreschild>
+  <importadoreschild value="1" descripcion="Incopar LTDA."></importadoreschild>
+  <importadoreschild value="2" descripcion="Refrinorte Ltda."></importadoreschild>
+  <importadoreschild value="3" descripcion="Inverprimos S.A."></importadoreschild>
+</importadores>

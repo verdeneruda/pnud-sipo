@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<entidadparent>
+  <entidadchild value="-1" descripcion="Seleccione..">
+  </entidadchild>
+  <entidadchild value="0" descripcion="Trane de Colombia S.A.">
+  </entidadchild>
+  <entidadchild value="1" descripcion="Hotel Casa de la Botica - Bogotá">
+  </entidadchild>
+  <entidadchild value="2" descripcion="RPH Ingenieria y Construcción Ltda. ">
+  </entidadchild>
+</entidadparent>

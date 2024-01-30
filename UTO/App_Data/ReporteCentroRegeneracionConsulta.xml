@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild Centro="Bogota" Fecha ="28/03/2008" Beneficiario ="JAIRO ESTEBAN DIAZ" R-12Entregado = "80" R-12Regenerado = "80"
+                  R-134aEntregado = "140" R-134aRegenerado = "140" R-22Entregado = "500" R-22Regenerado = "500">
+  </consultachild>
+  <consultachild Centro="Medellín" Fecha ="28/03/2008" Beneficiario ="JAIRO ESTEBAN DIAZ" R-12Entregado = "80" R-12Regenerado = "80"
+                  R-134aEntregado = "140" R-134aRegenerado = "140" R-22Entregado = "500" R-22Regenerado = "500">
+  </consultachild>
+  <consultachild Centro="Pereira" Fecha ="28/03/2008" Beneficiario ="JAIRO ESTEBAN DIAZ" R-12Entregado = "80" R-12Regenerado = "80"
+                  R-134aEntregado = "140" R-134aRegenerado = "140" R-22Entregado = "500" R-22Regenerado = "500">
+  </consultachild>
+</consulta>

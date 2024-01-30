@@ -1,0 +1,993 @@
+﻿	#plantila-contacto 
+	{
+	background-color:#3c9900 ; color:#FFF; margin:0 auto; padding:10px 0px 5px 0px; text-align:center; 
+	-webkit-box-shadow:  0px 4px 3px 3px #aaaaaa;
+     box-shadow:  0px 4px 3px 3px #aaaaaa;
+	 -moz-box-shadow:  0px 4px 3px 3px #aaaaaa; 
+	 }
+	#plantila-contacto p {
+		color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:0.7em; font-style:normal; font-weight:300; margin:0; padding:0; text-align:center; }	 
+    body
+    {
+		font-family:Sans-Serif;  
+		margin:0;
+		padding:0;  
+    }
+
+    hr
+    {
+		color:#3c9900;
+		background-color:#3c9900;
+		width:650px;
+		text-align:left;
+		margin-left:50px;
+		height:2px;
+    } 
+
+    div.titulo
+    {
+		text-align:left;
+		color:#3c9900; 
+		font-size:12px;
+		margin-left:50px;
+		margin-top:50px;
+    }
+
+    /*estilo del div donde se encuentra los datos generales si se necesitara scroll*/
+
+    .divGrid
+    {
+		overflow:scroll;
+		/*z-index:2;*/
+		margin-right:4px;
+		margin-left:4px;
+		width:730px;
+		
+    }
+
+    /*estilo del div para las grillas con scroll***********/
+    .divgrillas {
+        width: 100%;
+        overflow: scroll;
+        /*z-index:2;*/
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* estilo div con mas margen a la izquierda que el divwithoutgrid se uso en registrar actividades*/
+    .divsingrilla2
+    {
+		width:100%;
+		margin-left:0px;/*la grillas se ubica para que no quede desplazandose por debajo del menu*/
+		margin-right:0px;
+		padding:5px 0px 5px 0px;
+    }
+    /* estilo div para los botones guardar n registrar actividades*/
+    .divsingrillas3
+    {
+		width:100%;
+		margin-left:0px;
+		margin-right:0px;
+		padding:5px 0px 5px 0px;
+		background-color:#f8f8f8;
+		border-color:#CCC;
+		border-width:1px;
+		border-style:solid;
+    }
+
+    /*div paara las grillas que necesitan scroll dentro de los collapsible */
+    .divgrillasscrollcollapsible
+    {
+    width:650px;
+    overflow:scroll;
+    /*z-index:2;*/
+    margin-right:2px;
+    padding:10px 0px 10px 0px;
+    max-height:130px;
+    }
+
+    .divgrillassinscrooll {
+        width: 675px;
+        /*z-index:2;*/
+        margin-left: 67px; /*la grillas se ubica para que no quede desplazandose por debajo del menu*/
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /**estilo cuando los datos generales no necesitan scroll**/
+    .divwithoutgrid {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+    /**div para las grillas sin margen**/
+    .divgrillassinmargin
+    {
+		width:662px;
+		overflow:scroll;
+		/*z-index:2;*/
+		padding:5px 15px 5px 5px;
+    }
+    
+    /**div para las grillas sin margen**/
+    .divsustancia
+    {
+    width:392px;
+    overflow:scroll;
+    /*z-index:2;*/
+    padding:5px 15px 5px 5px;
+    height: 186px;
+    }
+    
+    /**div para las grillas sin margen**/
+    .divimportacion
+    {
+    width:653px;
+    overflow:scroll;
+    /*z-index:2;*/
+    padding:5px 15px 5px 5px;
+    height: 186px;
+    }
+
+
+    /*********************************************************************************************/
+    /* Estilos de la master */
+
+    /*estilo de la tabla */
+    table.pagina
+    {
+		width:100%;
+		margin:0px;
+		padding:0px;     
+		margin-left:auto; 
+		margin-right:auto;
+		border-collapse:collapse;
+		border-spacing:0px 0px;
+		border-style:none;  
+    }
+
+        /*estilo del div */
+    div.pagina {
+        margin: 0 auto;
+   
+        /*background: linear-gradient(#3c9900, white);*/
+        text-align: left;
+        padding: 3px;
+        /*color: white;*/
+    }
+
+    div.interno
+    {
+        /*width:960px;*/
+        border-radius: 15px;
+        border: 1px solid grey;
+        background: linear-gradient(#c3c3c3 , white);
+    }
+    div.interno2 {
+        /*width:960px;*/
+        /*border-radius: 15px;
+            border: 1px solid grey;   */
+        padding: 15px;
+    }
+    
+    /********estilo del td donde se encuentra el menu**************/
+    /*estilo del header*/
+    
+    .fondosup
+    {
+    	background-image:url(../images/FondoSuperior.png);
+    	background-repeat:repeat-x;
+		border-style:none; 
+    }
+    .fondosup2
+    {
+    	background-image:url(../images/FondoSuperior2.png);
+    	background-repeat:repeat-x;
+		border-style:none; 
+    }
+    .cabecera
+    {
+		/*background-image:url(../images/header-bg.jpg);*/
+		width:960px;
+		height:100px;
+		/*background-repeat:repeat-x;*/        
+        
+		border-style:none;         
+    }
+    .bordesupizq
+    {
+    	background-image:url(../images/BordeSupIzq.jpg);
+    	width:24px;
+    	height:40px;
+    }
+    .bordesupizqbanner
+    {
+    	background-image:url(../images/BordeSupIzqBanner.jpg);
+    	width:24px;
+    	/*height:85px;*/
+    }        
+    .bordesupder
+    {
+    	background-image:url(../images/BordeSupDer.jpg);
+    	width:24px;
+    }
+    
+    .bordeizq
+    {
+    	background-image:url(../images/BordeIzq.jpg);
+    	background-repeat:repeat-y;
+    }
+    
+    .bordeder
+    {
+    	background-image:url(../images/BordeDer.jpg);
+    	background-repeat:repeat-y;
+    }
+    
+    .bordeinfizq
+    {
+    	background-image:url(../images/BordeInfIzq.jpg);
+    }
+        
+    /*.bordeinfizqfooter
+    {
+    	background-color:#3c9900;
+    }*/
+        
+    .bordeinf
+    {
+    	background-image:url(../images/BordeInf.jpg);
+    	background-repeat:repeat-x;    	
+    	height:21px;
+    }
+    
+    .bordeinfder
+    {
+    	background-image:url(../images/BordeInfDer.jpg);
+    }
+    
+    /*.bordeinfiderfooter
+    {
+    	background-color:#3c9900;
+    }*/
+
+    .menuleft
+    {
+    background-color:White;
+    margin-left:0px;
+    padding-left:0px;
+    border-style:none; 
+    vertical-align: top;
+    }
+    
+    /*estilo del td donde se encuentra el content*/
+    .menuright
+    {
+    	width:100%;
+    	
+		background-color:White;
+		padding:0px 0px 5px 5px;
+		border-style:none; 
+		vertical-align: top;
+    }
+
+    /*css para el menu de la master page*/
+    .divmenu
+    {
+    background-color:White;
+    margin-left:0px;
+    padding-left:0px;
+    border-style:none; 
+    height:auto;
+    }
+
+    .sizemenu
+    {
+    width:192px;
+    }
+
+    .menugroup
+    {
+    font-size:10px;
+    font-style:normal;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-image:url(../images/group1.jpg);
+    padding:4px 4px 4px 4px;
+    border-color:White;
+    border-style:none;
+    border-width:1px;
+    }
+
+    .menuselected
+    {
+    font-size:11px;
+    font-style:normal;
+    text-decoration:none;
+    color:#6F9278;
+    }
+
+    td.menuhover:hover
+    {
+    color:#45634C;
+    font-size:11px;
+    font-style:normal;
+    text-decoration:underline;
+    }
+
+    .menuItem
+    {
+    color:#6F9278;
+    background-image:url(../images/item1.jpg);
+    font-size:10px;
+    font-style:normal;
+    padding:4px 4px 4px 4px;
+    border-color:White;
+    border-style:none;
+    border-width:1px;
+    }
+
+    .menuback
+    {
+    background-image:url(../images/item1.jpg);
+    border-style:none;
+    }
+
+    /**********************************************************************************/
+
+    /***********estilos paginas ver******************/
+    table.formver
+    {
+    width:650px;
+    margin-left:15px;   
+    margin-right:15px;
+    border-width:15px;
+    border-spacing: 2px;
+    border-color:white;
+    border-collapse:separate;
+    background-color: #EDF3EF;
+    /*white-space:nowrap;	*/
+    }
+
+    table.formver th
+    {
+    background-color:#3c9900;
+    font-size: 12px;
+    margin:5px 5px 5px 5px;
+    text-align:left;
+    padding:7px 7px 7px 7px;
+    }   
+
+    table.formver td
+    {
+    width:160px;
+    border-color:#D8DBD9;
+    border-style:solid;
+    font-size:11px;
+    font-weight:normal;
+    color:#373A38;
+    } 
+
+    /*
+    .margenIzquierda
+    {
+    background-image:url(../imagenes/LeftBorder.png);
+    width:11px;
+    height:10px;
+    background-repeat:repeat-y;
+    background-position:right;
+    }
+
+    .margenDerecha
+    {
+    background-image:url(../imagenes/RigthBorder.png);
+    width:11px;
+    height:10px;
+    background-repeat:repeat-y;
+    background-position:right;
+    }
+
+    .piePagina
+    {
+    background-image:url(../imagenes/Bottom.png);
+    width:995px;
+    height:36px;
+    background-repeat:no-repeat;
+    }
+
+    /* Estilos para formulario de captura */
+
+    /***tabla titulos***********/
+    table.titulo
+    {
+		width:100%;
+		border-width: 0px;
+		border-collapse:collapse;
+    }
+
+    table.titulo td
+    {
+		background-color:#3c9900;
+		background-image:url(../Images/FondoTitulo.jpg);
+		background-repeat:repeat-x;
+		padding:6px 4px 6px 4px;
+		text-align:left;
+    }
+
+    .subtitulo
+    {
+		font-size:12px;
+		font-weight:bold;
+		background-color:Transparent;
+		color:White;
+    }
+    
+    .subtitulo2
+    {
+		background-color:#309900;
+		font-size: 12px;
+		margin:5px 5px 5px 5px;
+		text-align:left;
+		padding:7px 7px 7px 7px;
+		width:650px;    
+    }
+
+    table.form 
+    {
+		width:100%;
+		margin-left:0px;   
+		margin-right:0px;
+		border-width:1px;
+		border-spacing:0px;
+		border-color:#CCC;
+		border-collapse:collapse;
+		background-color: white;
+    }
+
+    table.form th
+    {
+		background-image:url(../Images/FondoTitulo.jpg);    	
+		background-repeat:repeat-x;
+		background-color:#216a3f;
+		font-size: 12px;
+		margin:0px 0px 0px 0px;
+		text-align:left;
+		padding: 3px 5px 3px 5px;
+    }
+
+    table.form :not([class^="ajax__calendar"]) td
+    {
+		background-color:#f8f8f8;
+		border-color:#CCC;
+		border-style:solid;
+		border-width:1px;
+		font-size: 11px;
+		margin: 0px 0px 0px 0px;
+		text-align:left;
+		padding: 2px 5px 2px 5px;
+		font-family: Arial, Helvetica, sans-serif;
+		color:#444;
+    }
+
+    .label
+    {
+    font-size:11px;
+    font-weight:normal;
+    color:#373A38;
+    }
+
+    .check
+    {
+    width:80px;    
+    border-color:#373A38;
+    }
+
+    .listcheck
+    {
+		border-style: none;
+		font-size:11px;
+		font-weight:normal;
+    }
+
+    table.listcheck td
+    {
+    	border-collapse:collapse;
+		border-style: none;
+		font-size:11px;
+		font-weight:normal;
+    }
+
+    .check:focus
+    {
+    background-color:#EDF3EF;   
+    }
+
+    /************no se han usado*************/
+    table.tabla1 {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: white;
+    white-space:nowrap;
+    font-size:11px;
+    }
+
+    table.tabla1 th {
+    border-width: 1px;
+    padding: 2px;
+    border-style: inset;
+    border-color: black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+    text-align:left;
+    }
+
+    table.tabla1 td {
+    border-width: 1px;
+    padding: 2px;
+    border-style: inset;
+    border-color: black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+    }
+    /***********************/
+
+    /*estilo calendario*/
+    .calendar
+    {
+    background-color:#EDF3EF;       
+    }
+
+    /**estilo botones cancelar adicionar**/
+    .button
+    {
+		/*background-color:#EEE;*/
+		/*color:Black;*/
+		font-size:11px;
+    height: 22px;
+}
+    /** estilo boton mas grande  **/
+    .button2
+    {
+		/*background-color:#EEE;
+		color:Black; */
+		font-size:11px;
+	height: 22px;
+}
+
+    .texto1
+    {    
+		width:300px;    
+		border-color:#CCC;
+		border-width:thin;
+		font-size:11px;
+    }
+
+    .texto1:focus
+    {
+		background-color:#EDFFEF;
+    }
+
+    .texto2
+    {
+		width:170px;    
+		border-color:#CCC;
+		border-width:thin;
+		font-size:11px;
+    }
+
+    .texto2:focus
+    {
+		background-color:#EDFFEF;
+    }
+
+    .texto3
+    {
+		width:250px; 
+		height:80px;
+		border-color:#CCC;
+		border-width:thin;
+		font-size:11px;
+    }
+
+    .texto3:focus
+    {
+		background-color:#EDFFEF;
+    }
+
+    .texto4
+    {
+		width:480px; 
+		height:80px;
+		border-color:#CCC;
+		border-width:thin;
+		font-size:11px;
+    }
+
+    .texto4:focus
+    {
+		background-color:#EDFFEF;
+    }
+
+    .texto5
+    {
+		width:150px;    
+		border-color:#CCC;
+		border-width:thin;
+		font-size:11px;
+    }
+
+    .texto5:focus
+    {
+		background-color:#EDFFEF;
+    }
+
+    .combo
+    {
+		width:172px;
+		border-color:#CCC;
+		border-width:thin;
+		font-size:11px;
+	height: 20px;
+}
+
+    .combo:focus
+    {
+	    background-color:#EDFFEF;
+    }
+
+    /******************dialogo********************/
+    .CajaDialogo
+    {
+		background-color: #99ffcc;
+		border-width: 1px;
+		border-style: outset;
+		border-color: #000000;
+		padding: 0px;                
+    }
+
+    /*********************collapsables************************/
+    .lnbCollap
+    {
+		color:#f8f8f8;
+		text-decoration:none;
+		display:block;
+		margin-bottom: 0px;
+    }
+
+    table.form td.separador
+    {
+		background-color:#f8f8f8;
+		width:10px;
+    }
+
+    /* Estilos para tablas dentro de colapsables*/
+    table.formColapsable 
+    {
+		border-width: 1px;
+		border-spacing: 2px;
+		border-style: solid;
+		border-color: #CCC;
+		border-collapse:separate;
+		background-color: #f8f8f8;
+		/*white-space:nowrap;	*/
+		text-align:left;
+		width:100%;
+		margin-left:0px;   
+		margin-right:0px;	
+    }
+
+    table.formColapsableSinMargen
+    {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: solid;
+    border-color: #000000;
+    border-collapse:separate;
+    background-color: #f8f8f8;
+    /*white-space:nowrap;	*/
+    text-align:left;
+    width:700px;
+    margin-left:0px;   
+    margin-right:0px;	
+    }
+
+    table.formColapsable td
+    {
+		background-color:#f8f8f8;    
+    }
+
+    table.formColapsable td.tdCollap
+    {
+		background-image:url(../Images/FondoTitulo.jpg);
+	    background-repeat:repeat-x;
+		background-color:#216a3f;
+		font-size:12px;
+		font-weight:bold;
+		height:18px;
+    }
+
+    table.formColapsableSinMargen td.tdCollap
+    {
+		background-image:url(../Images/FondoTitulo.jpg);
+	    background-repeat:repeat-x;
+		background-color:#216a3f;
+		font-size:12px;
+		font-weight:bold;
+		height:18px;
+    }
+    /* Estilos para tablas dentro de modales*/
+    table.formModal {		
+		border-width: 1px;
+		border-spacing: 0px;
+		border-style: solid;
+		border-color: #216a3f;
+		border-collapse: collapse;
+		background-color: #f8f8f8;				
+    }
+
+    table.formModal th 
+    {
+		color:White;
+		text-align:left;
+		font-weight:bold;	
+		font-size:11px;
+		border-width: 0px;
+		padding: 3px;
+		border-style: solid;
+		border-color: #CCC;
+		background-color: #216a3f;
+		background-image:url(../Images/FondoTitulo.jpg);
+		background-repeat:repeat-x;
+    }
+
+    table.formModal td 
+    {   	
+		font-size: 11px;    
+		text-align:left;    
+		border-width: 1px;
+		padding: 3px;
+		border-collapse: collapse;
+		border-style: solid;
+		border-color: #CCC;
+		border-spacing: 0px;
+		background-color: #e0f4e0;
+    }
+
+    .FondoAplicacion
+    {
+    background-color:gray;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+    }
+
+    /*************************grillas***********/
+    .grilla
+    {
+    border-collapse:separate;    
+    border-style:solid;
+    border-spacing:2px;
+    border-color:#3c9900;
+    margin:4px 0px 4px 0px;
+    }
+
+    .headergrilla
+    {
+		background-color:#3c9900;
+		border-color:#3c9900;
+		font-size:11px;
+		font-weight:normal;
+		color:White !important;
+		padding:2px 4px 2px 4px;
+    }
+
+    .dxgvHeader, .dxgvHeader table
+    {
+		background-color:#3c9900;
+		border-color:#3c9900;
+		font-size:11px;
+		font-weight:normal;
+		color:White !important;
+		padding:2px 4px 2px 4px;
+    }
+
+    tr.headergrilla th
+    {
+		padding:2px 5px 2px 5px;    
+    }
+
+    .rowgrilla
+    {
+		background-color:#f8f8f8;
+		font-size:11px;
+		font-weight:normal;
+		color:#444;
+		padding:2px 4px 2px 4px;
+		border-collapse:separate;    
+        border-style:solid;
+        border-spacing:2px;
+        border-color:#3c9900;
+    }
+
+      .rowgrilla td
+    {
+		border-collapse:separate;    
+        border-style:solid;
+        border-spacing:2px;
+        border-color:#3c9900;
+    }
+
+    tr.rowgrilla td
+    {
+		padding :2px 5px 2px 5px;  
+
+    }
+
+    /***color para el color alternativo de los rows**/
+    .alternativerowgrilla
+    {    
+		background-color:#f2f2f2;
+		font-size:11px;
+		font-weight:normal;
+		color:#444;
+		padding:2px 4px 2px 4px;
+    }
+
+    /***estilo para los botones dentro de las grillas **/
+    .buttongrilla
+    {
+		font-size:smaller;
+		/*background-color:#888;
+		color:White;*/
+		/*width:60px;*/
+		margin:2px 2px 2px 2px;
+    }
+
+    .selectedgrilla
+    {
+    background-color:#C4D5CA;
+    font-size:11px;
+    font-weight:normal;
+    color:#2F363A;
+    padding:2px 4px 2px 4px;
+    }
+
+    .footergrilla
+    {
+    background-color:#C4D5CA;
+    font-size:11px;
+    font-weight:normal;
+    color:#2F363A;
+    padding:2px 4px 2px 4px;
+    }
+
+    /***************links**************/
+    .links:hover
+    {
+    color:#45634C;
+    font-size:11px;
+    font-style:normal;
+    text-decoration:underline;
+    }
+
+    .links:link
+    { color:#6F9278;
+    font-size:11px;
+    font-style:normal;
+    }
+
+    .links:visited
+    {
+    color:#45634C;
+    font-size:11px;
+    font-style:normal;
+    }
+
+    .links:active
+    {
+    color:White;
+    font-size:11px;
+    font-style:normal;   
+    }
+
+    .links
+    {
+    color:#6F9278;
+    font-size:11px;
+    font-style:normal;
+    cursor:pointer;
+    text-decoration:none;
+    }
+    /*******labels para consultas**/
+    .labelconsulta
+    {
+    color:White;
+    font-size:12px;
+    font-weight:bold;
+    font-style:normal;
+    border-width:thin;
+    padding:5px 5px 5px 5px;
+    background-color:Transparent;
+    margin:5px 5px 5px 5px;
+    }
+
+    table.consulta
+    {
+		background-color:#216a3f;
+		background-image:url(../Images/FondoTitulo.jpg);
+		background-repeat:repeat-x;
+		width:100%;
+		border-width: 0px;
+		border-spacing: 0px;
+    }
+    
+    .errorVisible
+    {
+    	background-color:#ff8888;
+    	border:1px;
+    	color:Black;
+    } 
+    .errorNoVisible
+    {
+    	visibility:hidden;
+    }
+    
+    div.ajax__calendar_days td
+    {
+        padding:0 !important;
+        border-style:none !important;
+    }
+
+    div.ajax__calendar_months td
+    {
+        padding:0 !important;
+        border-style:none !important;
+
+    }
+
+    div.ajax__calendar_years td
+    {
+        padding:0 !important;
+        border-style:none !important;
+
+    }
+
+
+    /*********************** estilo master page *******************************/
+    .top-bar-gov {
+        background-color: #36c;
+        padding: 8px 0 8px 0;
+    }
+
+    @media (min-width: 1200px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl {
+            max-width: 1140px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .top-bar-gov {
+            padding: 10px 0 10px 0;
+            height: 40px;
+        }
+    }
+    div.logoderecho {
+        float: right;
+        padding-top: 45px;
+        display: flex;
+    }
+    .row.logo-mads {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .navbar-brand img {
+        max-height: 64px;
+    }
+        

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<consulta>
+  <consultachild NombreTramite="Visto Bueno Físico" PendienteAnteriores="37" Entrada="260" SolicitudesAntes ="0" SolicitudesArchivadas="0"
+                 SolicitudesRequerimiento ="29" SolicitudesNegadasAntes ="0" SolicitudesNegadasAhora ="7" SolicitudesCanceladasAntes ="0"
+                 SolicitudesNoRequerian ="3" SolicitudesAprobadas ="221" SolicitudesAprobadasAnteriores ="37" TotalSolicitudesAprobadas ="37"
+                 TotalEvaluadoMiles ="297" DentroDelTérmino ="219" FueraTermino ="39" DíasNorma ="2" DíasPromedio ="1.57" PorcientoCumplimiento ="79%" 
+                 EnTramitesMesesAnteriores ="0" RequerimientoUsuario ="29" TrámiteMAVDT ="0" TotalPendientes ="29">  </consultachild>
+
+  <consultachild NombreTramite="Visto Bueno VUCE" PendienteAnteriores="37" Entrada="260" SolicitudesAntes ="0" SolicitudesArchivadas="0"
+                 SolicitudesRequerimiento ="29" SolicitudesNegadasAntes ="0" SolicitudesNegadasAhora ="7" SolicitudesCanceladasAntes ="0"
+                 SolicitudesNoRequerian ="3" SolicitudesAprobadas ="221" SolicitudesAprobadasAnteriores ="37" TotalSolicitudesAprobadas ="37"
+                 TotalEvaluadoMiles ="297" DentroDelTérmino ="219" FueraTermino ="39" DíasNorma ="2" DíasPromedio ="1.57" PorcientoCumplimiento ="79%"
+                 EnTramitesMesesAnteriores ="0" RequerimientoUsuario ="29" TrámiteMAVDT ="0" TotalPendientes ="29">  </consultachild>
+
+</consulta>

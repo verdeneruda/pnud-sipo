@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tipo>
+  <tipochild value="-1" descripcion="Seleccione..">
+  </tipochild>
+  <tipochild value="0" descripcion="Indicadores gestión">
+  </tipochild>
+  <tipochild value="2" descripcion="Visto bueno registros importación">
+  </tipochild>
+  <tipochild value="3" descripcion="Visto bueno declaración importación">
+  </tipochild>
+  <tipochild value="4" descripcion="Visto bueno registros exportación">
+  </tipochild>
+  <tipochild value="5" descripcion="Visto bueno declaración exportación">
+  </tipochild>  
+</tipo>
