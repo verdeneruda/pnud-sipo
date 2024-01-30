@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\SIPO\Fuentes\UTO\UTO\bin\UTO.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A720A28-390A-492B-AD37-690DF7A84075}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>UTO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>UTO</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>lib\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.1">
+      <HintPath>lib\DevExpress.Data.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.1.Core">
+      <HintPath>lib\DevExpress.Printing.v15.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v15.1">
+      <HintPath>lib\DevExpress.Web.ASPxPivotGrid.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v15.1">
+      <HintPath>lib\DevExpress.Web.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v15.1">
+      <HintPath>lib\DevExpress.XtraPrinting.v15.1.dll</HintPath>
+    </Reference>
+    <Reference Include="NE.CLib">
+      <HintPath>lib\NE.CLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Seguridad.Datos">
+      <HintPath>lib\Seguridad.Datos.dll</HintPath>
+    </Reference>
+    <Reference Include="Seguridad.Servicios">
+      <HintPath>lib\Seguridad.Servicios.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="UTO.Comunes.Servicio">
+      <HintPath>lib\UTO.Comunes.Servicio.dll</HintPath>
+    </Reference>
+    <Reference Include="UTO.Importacion.Servicio">
+      <HintPath>lib\UTO.Importacion.Servicio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comunes\BasePage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\1BasePage.aspx.cs" />
+    <Compile Include="Comunes\2BasePage.aspx.cs" />
+    <Compile Include="Comunes\ControlError.ascx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MPPivot.Master.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaError.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MPMain.Master.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad.designer.cs" />
+    <Compile Include="1Seguridad.designer.cs" />
+    <Compile Include="2Seguridad.designer.cs" />
+    <Compile Include="3Seguridad.designer.cs" />
+    <Compile Include="4Seguridad.designer.cs" />
+    <Compile Include="5Seguridad.designer.cs" />
+    <Compile Include="6Seguridad.designer.cs" />
+    <Compile Include="7Seguridad.designer.cs" />
+    <Compile Include="8Seguridad.designer.cs" />
+    <Compile Include="9Seguridad.designer.cs" />
+    <Compile Include="Certificacion\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\1CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\2CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\3CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\4CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\5CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\6CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\7CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\8CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\9CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\10CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\11CertificacionExtendido.cs" />
+    <Compile Include="Certificacion\CuboCertificacion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\ActividadesBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\Certificacion.designer.cs" />
+    <Compile Include="Certificacion\1Certificacion.designer.cs" />
+    <Compile Include="Certificacion\2Certificacion.designer.cs" />
+    <Compile Include="Certificacion\3Certificacion.designer.cs" />
+    <Compile Include="Certificacion\4Certificacion.designer.cs" />
+    <Compile Include="Certificacion\5Certificacion.designer.cs" />
+    <Compile Include="Certificacion\6Certificacion.designer.cs" />
+    <Compile Include="Certificacion\7Certificacion.designer.cs" />
+    <Compile Include="Certificacion\8Certificacion.designer.cs" />
+    <Compile Include="Certificacion\9Certificacion.designer.cs" />
+    <Compile Include="Certificacion\10Certificacion.designer.cs" />
+    <Compile Include="Certificacion\11Certificacion.designer.cs" />
+    <Compile Include="Certificacion\12Certificacion.designer.cs" />
+    <Compile Include="Certificacion\13Certificacion.designer.cs" />
+    <Compile Include="Certificacion\14Certificacion.designer.cs" />
+    <Compile Include="Certificacion\certificacionconsultas.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\EmpresasBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\EncuestasBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\TecnicosBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\TecnicosCertificadosBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\EmpresasRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\ActividadesRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\ActividadesVer.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\Empresasver.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\BusquedaEmpresas.cs" />
+    <Compile Include="Certificacion\EncuestasVer.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\TecnicosVer.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\TecnicosCertificadosVer.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Certificacion\TecnicosRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Comercializacion.cs" />
+    <Compile Include="Comercializacion\1Comercializacion.cs" />
+    <Compile Include="Comercializacion\2Comercializacion.cs" />
+    <Compile Include="Comercializacion\ComercializacionExtendido.cs" />
+    <Compile Include="Comercializacion\1ComercializacionExtendido.cs" />
+    <Compile Include="Comercializacion\2ComercializacionExtendido.cs" />
+    <Compile Include="Comercializacion\3ComercializacionExtendido.cs" />
+    <Compile Include="Comercializacion\4ComercializacionExtendido.cs" />
+    <Compile Include="Comercializacion\5ComercializacionExtendido.cs" />
+    <Compile Include="Comercializacion\CuboComercio.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\1Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\2Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\3Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\4Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\5Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\6Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\7Comercializacion.designer.cs" />
+    <Compile Include="Comercializacion\comercializacionConsultas.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\EncuestaBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Encuestaregistro.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\EncuestaVer.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\ActividadMaterial.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Aplicacion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\BaseComunes.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Comunes_Extendido.cs" />
+    <Compile Include="Comunes\Comunes Extendido.cs" />
+    <Compile Include="Comunes\1Comunes Extendido.cs" />
+    <Compile Include="Comunes\2Comunes Extendido.cs" />
+    <Compile Include="Comunes\3Comunes Extendido.cs" />
+    <Compile Include="Comunes\4Comunes Extendido.cs" />
+    <Compile Include="Comunes\5Comunes Extendido.cs" />
+    <Compile Include="Comunes\6Comunes Extendido.cs" />
+    <Compile Include="Comunes\7Comunes Extendido.cs" />
+    <Compile Include="Comunes\8Comunes Extendido.cs" />
+    <Compile Include="Comunes\9Comunes Extendido.cs" />
+    <Compile Include="Comunes\Comunes.designer.cs" />
+    <Compile Include="Comunes\1Comunes.designer.cs" />
+    <Compile Include="Comunes\2Comunes.designer.cs" />
+    <Compile Include="Comunes\3Comunes.designer.cs" />
+    <Compile Include="Comunes\4Comunes.designer.cs" />
+    <Compile Include="Comunes\ControlTercero.ascx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Aduana.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Categoria.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\ConceptoVB.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\CategoriaEquipo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\ProyectoRecuperacion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\SectorUso.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Subpartidas.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\TipoEquipo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\EquipoKit.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\KitCompra.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\LicitacionCompra.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\DocumentoVerificar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\GasUso.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\GasTipo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\GasDestino.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\GrupoProyecto.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\TipoProyecto.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Sector.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Pais.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Presentacion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Marca.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Sustancia.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\DocumentosVarios.ascx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\TerceroBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\TerceroRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunes\Pendientes.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\AprobarNovedadEquiposBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\AprobarNovedadEquiposRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\AprobarSolicitudEquiposBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\AprobarSolicitudEquiposRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\BarridoSolicitudBusqueda.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\CentroAcopioBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\CentroAcopioRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\CentrosRegeneracionRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ConsolidadoRegeneracionBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ConsolidadoRegeneracionRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ConsultaFicha.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\Correspondencia.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\Cubo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\CuboBarrido.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\CuboCentroAcopio.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\CuboCentroRegeneracion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\NovedadEquiposBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\NovedadEquiposRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\Recuperacion.cs" />
+    <Compile Include="Recuperacion\1Recuperacion.cs" />
+    <Compile Include="Recuperacion\Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\1Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\2Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\3Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\4Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\5Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\6Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\7Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\8Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\9Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\10Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\11Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\12Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\13Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\14Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\15Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\16Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\17Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\18Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\19Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\20Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\21Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\22Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\23Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\24Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\25Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\26Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\27Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\28Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\29Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\30Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\31Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\32Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\33Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\34Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\35Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\36Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\37Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\38Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\39Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\40Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\41Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\42Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\43Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\44Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\45Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\46Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\47Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\48Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\49Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\50Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\51Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\52Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\53Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\54Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\55Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\56Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\57Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\58Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\59Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\60Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\61Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\62Recuperacion.designer.cs" />
+    <Compile Include="Recuperacion\RecuperacionConsultas.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ReporteRegeneracionBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ReporteRegeneracionRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ReporteUsoBarridoRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ReporteUsoBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\ReporteUsoRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\SolicitudEquiposBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recuperacion\SolicitudEquiposRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisposicionFinal\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisposicionFinal\DisposicionFinal.cs" />
+    <Compile Include="DisposicionFinal\1DisposicionFinal.cs" />
+    <Compile Include="DisposicionFinal\2DisposicionFinal.cs" />
+    <Compile Include="DisposicionFinal\DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\1DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\2DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\3DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\4DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\5DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\6DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\7DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\8DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\9DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\10DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\11DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\12DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\13DisposicionFinal.designer.cs" />
+    <Compile Include="DisposicionFinal\ProductosBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisposicionFinal\ProductosConsultas.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisposicionFinal\ProductosRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\Cubo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\1ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\2ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\3ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\4ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\5ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\6ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\7ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\8ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\9ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\10ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\11ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\12ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\13ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\14ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\15ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\16ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\17ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\18ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\19ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\20ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\21ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\22ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\23ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\24ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\25ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\26ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\27ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\28ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\29ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\30ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\31ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\32ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\33ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\34ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\35ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\36ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\37ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\38ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\39ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\40ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\41ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\42ImportacionExportacion.designer.cs" />
+    <Compile Include="ImportacionExportacion\CargueInformacionExportacion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\CargueInformacionImportacion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\Consulta.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\RegistroExportacionBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\RegistroImportacionRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\CertificacionesBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\CertificacionesRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\LicAmbientalesBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\LicAmbientalesRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\LicAmbientalesVer.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\RegistroImportacionBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImportacionExportacion\RegistroExportacionRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proyectos\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proyectos\AprobadosEliminacionConsultas.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proyectos\Proyectos.designer.cs" />
+    <Compile Include="Proyectos\1Proyectos.designer.cs" />
+    <Compile Include="Proyectos\2Proyectos.designer.cs" />
+    <Compile Include="Proyectos\3Proyectos.designer.cs" />
+    <Compile Include="Proyectos\4Proyectos.designer.cs" />
+    <Compile Include="Proyectos\5Proyectos.designer.cs" />
+    <Compile Include="Proyectos\6Proyectos.designer.cs" />
+    <Compile Include="Proyectos\7Proyectos.designer.cs" />
+    <Compile Include="Proyectos\8Proyectos.designer.cs" />
+    <Compile Include="Proyectos\9Proyectos.designer.cs" />
+    <Compile Include="Proyectos\10Proyectos.designer.cs" />
+    <Compile Include="Proyectos\AprobadosEliminacionBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proyectos\AprobadosEliminacionRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\BaseModulo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\CuboRegistroUso.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\RegistroUso.cs" />
+    <Compile Include="RegistrosUso\1RegistroUso.cs" />
+    <Compile Include="RegistrosUso\2RegistroUso.cs" />
+    <Compile Include="RegistrosUso\3RegistroUso.cs" />
+    <Compile Include="RegistrosUso\4RegistroUso.cs" />
+    <Compile Include="RegistrosUso\RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\1RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\2RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\3RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\4RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\5RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\6RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\7RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\8RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\9RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\10RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\11RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\12RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\13RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\14RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\15RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\16RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\17RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\18RegistroUso.designer.cs" />
+    <Compile Include="RegistrosUso\CargueImportadores.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\ImportadoresBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\ImportadoresConsultas.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\ImportadoresRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\UsuariosBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrosUso\UsuariosRegistrar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\BaseSeguridad.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\AuditoriaConsulta.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\CerrarSesion.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Grupos.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\GruposBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Historico.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\MiCuenta.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Usuarios.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Seguridad\UsuariosBuscar.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\DevExpress_Web_ASPxPivotGrid_v10_2.designer.cs" />
+    <Compile Include="Certificacion\12CertificacionExtendido.cs" />
+    <Compile Include="Comercializacion\6ComercializacionExtendido.cs" />
+    <Compile Include="Recuperacion\RecuperacionExtendido.cs" />
+    <Compile Include="DisposicionFinal\DisposicionFinalExtendido.cs" />
+    <Compile Include="ImportacionExportacion\ImportacionExportacionExtendido.cs" />
+    <Compile Include="Proyectos\ProyectosExtendido.cs" />
+    <Compile Include="RegistrosUso\RegistroUsoExtendido.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dll.licenses" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
